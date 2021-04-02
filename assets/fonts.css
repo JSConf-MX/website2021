@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Pixeled';
+  src:  url('fonts/Pixeled.eot?d74k99');
+  src:  url('fonts/Pixeled.eot?d74k99#iefix') format('embedded-opentype'),
+    url('fonts/Pixeled.ttf?d74k99') format('truetype'),
+    url('fonts/Pixeled.woff?d74k99') format('woff'),
+    url('fonts/Pixeled.svg?d74k99#Pixeled') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: 'PTMono-Bold';
+  src:  url('fonts/PTMono-Bold.eot?d74k99');
+  src:  url('fonts/PTMono-Bold.eot?d74k99#iefix') format('embedded-opentype'),
+    url('fonts/PTMono-Bold.ttf?d74k99') format('truetype'),
+    url('fonts/PTMono-Bold.woff?d74k99') format('woff'),
+    url('fonts/PTMono-Bold.svg?d74k99#PTMono-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: 'PTMono-Regular';
+  src:  url('fonts/PTMono-Regular.eot?d74k99');
+  src:  url('fonts/PTMono-Regular.eot?d74k99#iefix') format('embedded-opentype'),
+    url('fonts/PTMono-Regular.ttf?d74k99') format('truetype'),
+    url('fonts/PTMono-Regular.woff?d74k99') format('woff'),
+    url('fonts/PTMono-Regular.svg?d74k99#PTMono-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
