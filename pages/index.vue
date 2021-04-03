@@ -2,6 +2,7 @@
   <div class="splash">
     <Header />
     <div class="splash__container">
+      <Alert />
       <img class="splash__background" src="/background.png" alt="windows and cheems background">
       <div class="splash__menu">
         <div class="splash__icons">
@@ -52,6 +53,11 @@ export default {}
   flex-direction: column;
   &__container {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
   &__background {
     width: 100%;
@@ -127,6 +133,7 @@ export default {}
       width: 100%;
       border: 1px solid $dark-purple;
       box-shadow: 10px 8px 1px 0px rgb(0 0 0 / 10%);
+      background-color: white;
     }
   }
 }
