@@ -34,9 +34,7 @@
         </div>
       </div>
     </div>
-    <footer class="splash__footer">
-      holi
-    </footer>
+    <Footer />
   </div>
 </template>
 
@@ -59,13 +57,6 @@ export default {}
     width: 100%;
     z-index: 0;
     height: 89vh;
-  }
-  &__footer {
-    width: 100%;
-    background-color: $lila;
-    margin-top: -72px;
-    min-height: 85px;
-    z-index: 1;
   }
   &__menu {
     display: flex;
