@@ -13,6 +13,7 @@
 
 <style lang="scss">
 .header {
+  background-color: white;
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
