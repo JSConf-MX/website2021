@@ -2,15 +2,15 @@
   <footer class="footer">
     <a class="footer__link" href="https://twitter.com/jsconfmx" target="_blank">
       <img class="footer__icon footer__icon-twitter" src="/icons/socialmedia/twitter.svg" alt="twitter logo">
-      Twitter
+      @jsconfmx
     </a>
     <a class="footer__link" href="https://www.instagram.com/jsconfmx/" target="_blank">
       <img class="footer__icon footer__icon-instagram"  src="/icons/socialmedia/instagram.svg" alt="instagram logo">
-      Instagram
+      @jsconfmx
     </a>
     <a class="footer__link" href="https://www.facebook.com/JSConfMexico" target="_blank">
       <img class="footer__icon footer__icon-facebook" src="/icons/socialmedia/facebook.svg" alt="facebook logo">
-      Facebook
+      JSConf MX
     </a>
   </footer>
 </template>
