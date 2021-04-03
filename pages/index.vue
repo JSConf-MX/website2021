@@ -1,28 +1,26 @@
 <template>
   <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">
-        JSConf2021
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+    <Header />
+    <h1 class="title">
+      JSConf2021
+    </h1>
+    <div class="links">
+      <a
+        href="https://nuxtjs.org/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="button--green"
+      >
+        Documentation
+      </a>
+      <a
+        href="https://github.com/nuxt/nuxt.js"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="button--grey"
+      >
+        GitHub
+      </a>
     </div>
   </div>
 </template>
@@ -36,9 +34,10 @@ export default {}
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   text-align: center;
+  flex-direction: column;
 }
 
 .title {
