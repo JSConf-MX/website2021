@@ -36,12 +36,15 @@
     flex-wrap: wrap;
     align-items: center;
     opacity: 0.6;
+    font-family: $regular;
+    font-size: 12px;
     &:last-of-type {
       margin-right: 0;
     }
   }
   &__icon {
     width: 100%;
+    margin-bottom: 5px;
     &-twitter {
       max-width: 38px;
     }
