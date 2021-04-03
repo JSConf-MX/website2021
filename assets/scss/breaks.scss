@@ -1,6 +1,7 @@
 // variables:
 $breakpoint-xs: 360px;
 $breakpoint-nav: 380px;
+$breakpoint-menu: 540px;
 $breakpoint-sm: 768px;
 $breakpoint-md: 900px;
 $breakpoint-lg: 1200px;
@@ -10,8 +11,11 @@ $breakpoint-xl: 1360px;
   @if $under == xs {
     @media (max-width: $breakpoint-xs) { @content; }
   }
-  @else if $under == padding {
+  @else if $under == nav {
     @media (max-width: $breakpoint-nav) { @content; }
+  }
+  @else if $under == menu {
+    @media (max-width: $breakpoint-menu) { @content; }
   }
   @else if $under == sm {
     @media (max-width: $breakpoint-sm) { @content; }

@@ -23,7 +23,8 @@ export default {
     '~/assets/fonts.css',
     '~/assets/scss/fonts.scss',
     '~/assets/scss/colors.scss',
-    '~/assets/scss/breaks.scss'
+    '~/assets/scss/breaks.scss',
+    '~/assets/scss/general.scss'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
