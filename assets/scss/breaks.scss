@@ -1,0 +1,52 @@
+// variables:
+$breakpoint-xs: 360px;
+$breakpoint-nav: 380px;
+$breakpoint-sm: 768px;
+$breakpoint-md: 900px;
+$breakpoint-lg: 1200px;
+$breakpoint-xl: 1360px;
+
+@mixin under($under) {
+  @if $under == xs {
+    @media (max-width: $breakpoint-xs) { @content; }
+  }
+  @else if $under == padding {
+    @media (max-width: $breakpoint-nav) { @content; }
+  }
+  @else if $under == sm {
+    @media (max-width: $breakpoint-sm) { @content; }
+  }
+  @else if $under == md {
+    @media (max-width: $breakpoint-md) { @content; }
+  }
+  @else if $under == lg {
+    @media (max-width: $breakpoint-lg) { @content; }
+  }
+  @else if $under == xl {
+    @media (max-width: $breakpoint-xl) { @content; }
+  }
+  @else {
+    @media (max-width: $under) { @content; }
+  }
+}
+
+@mixin above($above) {
+  @if $above == xs {
+    @media (min-width: $breakpoint-xs) { @content; }
+  }
+  @else if $above == sm {
+    @media (min-width: $breakpoint-sm) { @content; }
+  }
+  @else if $above == md {
+    @media (min-width: $breakpoint-md) { @content; }
+  }
+  @else if $above == lg {
+    @media (min-width: $breakpoint-lg) { @content; }
+  }
+  @else if $above == xl {
+    @media (min-width: $breakpoint-xl) { @content; }
+  }
+  @else {
+    @media (min-width: $above) { @content; }
+  }
+}
