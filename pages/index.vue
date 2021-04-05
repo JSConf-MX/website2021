@@ -40,7 +40,7 @@
 </template>
 
 <script>
-import Header from '~/components/Header.vue'
+import Header from '~/components/header.vue'
 import Banner from '~/components/Banner.vue'
 import Footer from '~/components/footer.vue'
 export default {
