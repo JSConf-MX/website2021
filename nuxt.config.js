@@ -1,17 +1,66 @@
-export default {
+module.exports = {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'JSConf2021',
+    title: 'JSConf Mexico 2021',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'November 2021 - Online. JSConf MX is a platform created for all the Javascript community. Everybody has a story, we are also a place to share ideas, knowledge and experiences.'
+      },
+      {
+        hid: 'twitter:title',
+        name: 'twitter:title',
+        content: 'JSConf Mexico 2021'
+      },
+      {
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        content: 'November 2021 - Online. JSConf MX is a platform created for all the Javascript community. Everybody has a story, we are also a place to share ideas, knowledge and experiences.'
+      },
+      {
+        hid: 'twitter:image',
+        name: 'twitter:image',
+        content: '/seo-image.png'
+      },
+      {
+        hid: 'twitter:image:alt',
+        name: 'twitter:image:alt',
+        content: 'JSConf Mexico 2021'
+      },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: 'JSConf Mexico 2021'
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: 'November 2021 - Online. JSConf MX is a platform created for all the Javascript community. Everybody has a story, we are also a place to share ideas, knowledge and experiences.'
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: '/seo-image.png'
+      },
+      {
+        hid: 'og:image:secure_url',
+        property: 'og:image:secure_url',
+        content: '/seo-image.png'
+      },
+      {
+        hid: 'og:image:alt',
+        property: 'og:image:alt',
+        content: 'JSConf Mexico 2021'
+      }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
