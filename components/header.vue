@@ -1,5 +1,5 @@
 <template>
-  <div class="header">
+  <header class="header">
     <div class="header__logo-container">
       <img class="header__logo" src="/logo.svg" alt="JSConf Mexico logo 2021">
       <h1 class="header__logo-title">{{ $t('splash.title') }}</h1>
@@ -17,7 +17,7 @@
         {{locale.code}}
       </nuxt-link>
     </div>
-  </div>
+  </header>
 </template>
 
 <script>

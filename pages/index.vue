@@ -40,9 +40,9 @@
 </template>
 
 <script>
-import Header from '~/components/Header'
-import Banner from '~/components/Banner'
-import Footer from '~/components/Footer'
+import Header from '~/components/Header.vue'
+import Banner from '~/components/Banner.vue'
+import Footer from '~/components/Footer.vue'
 export default {
   name: 'index',
   components: {
