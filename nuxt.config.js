@@ -40,8 +40,25 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    '@nuxtjs/style-resources'
+    '@nuxtjs/style-resources',
+    'nuxt-i18n'
   ],
+
+  i18n: {
+    lazy: true,
+    langDir: 'lang/',
+    locales: [
+      {
+        code: 'es',
+        file: 'es'
+      },
+      {
+        code: 'en',
+        file: 'en'
+      }
+    ],
+    defaultLocale: 'es'
+  },
 
   styleResources: {
     scss: ['./assets/scss/*.scss']
