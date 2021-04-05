@@ -18,7 +18,7 @@
               <span class="splash__icon-name">{{ $t('splash.cfp') }}</span>
             </div>
           </a>
-          <a class="splash__icon-container" href="#">
+          <a class="splash__icon-container" href="/attendees-2020.pdf" download>
             <img class="splash__icon" src="/icons/attendees.svg" alt="attendees icon">
             <div class="splash__icon-box">
               <span class="splash__icon-name">{{ $t('splash.attendees') }}</span>
