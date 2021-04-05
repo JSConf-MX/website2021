@@ -2,26 +2,26 @@
   <div class="splash">
     <Header />
     <div class="splash__container">
-      <Alert />
+      <Banner />
       <img class="splash__background" src="/background.png" alt="windows and cheems background">
       <div class="splash__menu">
         <div class="splash__icons">
           <a class="splash__icon-container" href="#">
             <img class="splash__icon" src="/icons/sponsors.svg" alt="sponsors icon">
             <div class="splash__icon-box">
-              <span class="splash__icon-name">Patrocinadores</span>
+              <span class="splash__icon-name">{{ $t('splash.sponsors') }}</span>
             </div>
           </a>
           <a class="splash__icon-container" href="#">
             <img class="splash__icon" src="/icons/cfp.svg" alt="call for proposals icon">
             <div class="splash__icon-box">
-              <span class="splash__icon-name">CFP</span>
+              <span class="splash__icon-name">{{ $t('splash.cfp') }}</span>
             </div>
           </a>
           <a class="splash__icon-container" href="#">
             <img class="splash__icon" src="/icons/attendees.svg" alt="attendees icon">
             <div class="splash__icon-box">
-              <span class="splash__icon-name">Asistentes-2020</span>
+              <span class="splash__icon-name">{{ $t('splash.attendees') }}</span>
             </div>
           </a>
         </div>
@@ -29,7 +29,7 @@
           <a class="splash__icon-container" href="#">
             <img class="splash__icon splash__icon-trash" src="/icons/trash.svg" alt="trash icon">
             <div class="splash__icon-box">
-              <span class="splash__icon-name">Papelera</span>
+              <span class="splash__icon-name">{{ $t('splash.trash') }}</span>
             </div>
           </a>
         </div>
@@ -40,7 +40,17 @@
 </template>
 
 <script>
-export default {}
+import Header from '~/components/Header'
+import Banner from '~/components/Banner'
+import Footer from '~/components/Footer'
+export default {
+  name: 'index',
+  components: {
+    Header,
+    Banner,
+    Footer
+  }
+}
 </script>
 
 <style lang="scss">

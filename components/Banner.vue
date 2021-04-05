@@ -1,11 +1,11 @@
 <template>
   <div class="alert">
     <div class="alert__header">
-      Próximamente
+      {{ $t('splash.coming') }}
     </div>
     <div class="alert__content">
       <img class="alert__icon" src="/icons/alert.svg" alt="alert image">
-      <h3 class="alert__text">Noviembre 2021 online</h3>
+      <h3 class="alert__text">{{ $t('splash.date') }}</h3>
     </div>
   </div>
 </template>

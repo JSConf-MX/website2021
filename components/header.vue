@@ -2,14 +2,36 @@
   <div class="header">
     <div class="header__logo-container">
       <img class="header__logo" src="/logo.svg" alt="JSConf Mexico logo 2021">
-      <h1 class="header__logo-title">JSConf México</h1>
+      <h1 class="header__logo-title">{{ $t('splash.title') }}</h1>
     </div>
     <div class="header__btn-container">
-      <nuxt-link to="/" class="header__btn header__btn--active">ES</nuxt-link>
-      <nuxt-link to="/" class="header__btn">EN</nuxt-link>
+      <nuxt-link
+        v-model="selectedValue"
+        v-for="(locale, index) in $i18n.locales"
+        :to="switchLocalePath(locale.code)"
+        :key="index"
+        :value="locale.code"
+        class="header__btn"
+        :class="{'header__btn--active': selectedValue == locale.code}"
+      >
+        {{locale.code}}
+      </nuxt-link>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      selectedValue: ""
+    };
+  },
+  created() {
+    this.selectedValue = this.$i18n.locale;
+  }
+}
+</script>
 
 <style lang="scss">
 .header {
@@ -37,6 +59,7 @@
     padding: 9px;
     text-decoration: none;
     opacity: 0.6;
+    text-transform: uppercase;
     &--active {
       opacity: 1;
       background-color: $light-red;
