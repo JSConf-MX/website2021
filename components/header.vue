@@ -41,7 +41,7 @@ export default {
   flex-flow: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 15px;
+  padding: 7px 15px;
   width: 100%;
   border-bottom: 3px solid $dark-purple;
   &__btn {
@@ -73,7 +73,7 @@ export default {
   }
   &__logo {
     width: 100%;
-    max-width: 50px;
+    max-width: 40px;
     &-container {
       display: flex;
       flex-direction: row;

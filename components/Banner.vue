@@ -22,6 +22,7 @@
   z-index: 1;
   left: 10px;
   right: 10px;
+  border-radius: 4px;
   @include under(sm) {
     top: 42vh;
   }
@@ -32,7 +33,8 @@
     color: white;
     font-family: $regular;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 21px;
+    font-weight: 400;
   }
   &__content {
     width: 100%;
@@ -41,7 +43,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 15px;
+    padding: 20px 15px;
   }
   &__icon {
     width: 100%;
@@ -49,7 +51,8 @@
   }
   &__text {
     font-family: $regular;
-    font-size: 16px;
+    font-weight: 400;
+    font-size: 21px;
     color: $purple;
     max-width: 180px;
     text-align: left;

@@ -138,6 +138,7 @@ export default {
       font-family: $regular;
       font-size: 14px;
       color: $dark-purple;
+      line-height: 22px;
     }
     &-box {
       width: 100%;
