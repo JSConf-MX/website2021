@@ -6,19 +6,19 @@
       <img class="splash__background" src="/background.png" alt="windows and cheems background">
       <div class="splash__menu">
         <div class="splash__icons">
-          <a class="splash__icon-container" href="#">
+          <a class="splash__icon-container" href="https://docs.google.com/presentation/d/112hkUEV1XQDAHL6T7BSx-uIZ-fUlmm6iaQZIkpUiDtc/edit?usp=sharing" target="_blank">
             <img class="splash__icon" src="/icons/sponsors.svg" alt="sponsors icon">
             <div class="splash__icon-box">
               <span class="splash__icon-name">{{ $t('splash.sponsors') }}</span>
             </div>
           </a>
-          <a class="splash__icon-container" href="#">
+          <a class="splash__icon-container" href="https://forms.gle/62AT6tM59v4NUH6s5" target="_blank">
             <img class="splash__icon" src="/icons/cfp.svg" alt="call for proposals icon">
             <div class="splash__icon-box">
               <span class="splash__icon-name">{{ $t('splash.cfp') }}</span>
             </div>
           </a>
-          <a class="splash__icon-container" href="/attendees-2020.pdf" download>
+          <a class="splash__icon-container" href="https://docs.google.com/presentation/d/1n598TzJWZ4Rz2wXyU-TAAkuadRT3-LjP1vPhXYsrBMY/edit?usp=sharing" target="_blank">
             <img class="splash__icon" src="/icons/attendees.svg" alt="attendees icon">
             <div class="splash__icon-box">
               <span class="splash__icon-name">{{ $t('splash.attendees') }}</span>
@@ -26,7 +26,7 @@
           </a>
         </div>
         <div class="splash__trash">
-          <a class="splash__icon-container" href="#">
+          <a class="splash__icon-container" href="https://2020.jsconf.mx/" target="_blank">
             <img class="splash__icon splash__icon-trash" src="/icons/trash.svg" alt="trash icon">
             <div class="splash__icon-box">
               <span class="splash__icon-name">{{ $t('splash.trash') }}</span>
