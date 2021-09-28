@@ -37,8 +37,11 @@
     padding: 15px 10px;
     border-radius: 3px;
     &:hover{
-      background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
-      animation:slidebg 3s linear infinite;
+      background-image: url('../static/site/sparkle.gif');
+      background-size: contain;
+      background-repeat: repeat;
+      background-color: $white;
+      color: $pink
     }
   }
 }
