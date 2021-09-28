@@ -6,6 +6,7 @@
       <div class="grid__container">
         <hero/>
         <about/>
+        <sponsors/>
       </div>
       <div class="grid__container-side">
 
@@ -21,6 +22,7 @@ import Footer from '~/components/footer.vue'
 import rightMenu from '~/components/right-menu.vue'
 import hero from '~/components/hero.vue'
 import about from '~/components/about.vue'
+import sponsors from '~/components/sponsors.vue'
 export default {
   name: 'index',
   components: {
@@ -28,7 +30,8 @@ export default {
     Footer,
     rightMenu,
     hero,
-    about
+    about,
+    sponsors
   }
 }
 </script>
