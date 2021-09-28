@@ -1,0 +1,12 @@
+.grid {
+    &__container {
+        &-menu {
+            width: 18%;
+            padding: 30px 15px;
+        }
+        &-side {
+            width: 30%
+        }
+        width: 52%;
+    }
+}
