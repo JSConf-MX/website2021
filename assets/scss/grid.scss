@@ -1,4 +1,7 @@
 .grid {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
     &__container {
         &-menu {
             width: 18%;
@@ -9,6 +12,7 @@
         }
         width: 52%;
         display: flex;
+        flex-direction: column;
     }
     &__row {
         flex-direction: row;
