@@ -1,34 +1,22 @@
 <template>
-  <div>
-    <Header />
-    <div>
-      <right-menu/>
-      <div class="grid__container">
-        <div class="hero">
-
-        </div>
-      </div>
-      <div class="grid__container-side">
-
-      </div>
+    <div class="grid__container-menu menu__container">
+        <a class="menu__button" href="#about">
+          {{ $t('menu.about') }}
+        </a>
+        <a class="menu__button" href="#sponsors">
+          {{ $t('menu.sponsors') }}
+        </a>
+        <a class="menu__button" href="#speakers">
+          {{ $t('menu.speakers') }}
+        </a>
+        <a class="menu__button" href="#team">
+          {{ $t('menu.team') }}
+        </a>
+        <a class="menu__button" href="#social">
+          {{ $t('menu.social') }}
+        </a>
     </div>
-    <Footer />
-  </div>
 </template>
-
-<script>
-import Header from '~/components/header.vue'
-import Footer from '~/components/footer.vue'
-import rightMenu from '~/components/right-menu.vue'
-export default {
-  name: 'index',
-  components: {
-    Header,
-    Footer,
-    rightMenu
-  }
-}
-</script>
 
 <style lang="scss">
 .menu {
