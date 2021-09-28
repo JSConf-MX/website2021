@@ -1,38 +1,29 @@
 <template>
-  <div class="splash">
+  <div>
     <Header />
-    <div class="splash__container">
-      <Banner />
-      <img class="splash__background" src="/background.png" alt="windows and cheems background">
-      <div class="splash__menu">
-        <div class="splash__icons">
-          <a class="splash__icon-container" href="https://docs.google.com/presentation/d/112hkUEV1XQDAHL6T7BSx-uIZ-fUlmm6iaQZIkpUiDtc/edit?usp=sharing" target="_blank">
-            <img class="splash__icon" src="/icons/sponsors.svg" alt="sponsors icon">
-            <div class="splash__icon-box">
-              <span class="splash__icon-name">{{ $t('splash.sponsors') }}</span>
-            </div>
-          </a>
-          <a class="splash__icon-container" href="https://forms.gle/62AT6tM59v4NUH6s5" target="_blank">
-            <img class="splash__icon" src="/icons/cfp.svg" alt="call for proposals icon">
-            <div class="splash__icon-box">
-              <span class="splash__icon-name">{{ $t('splash.cfp') }}</span>
-            </div>
-          </a>
-          <a class="splash__icon-container" href="https://docs.google.com/presentation/d/1n598TzJWZ4Rz2wXyU-TAAkuadRT3-LjP1vPhXYsrBMY/edit?usp=sharing" target="_blank">
-            <img class="splash__icon" src="/icons/attendees.svg" alt="attendees icon">
-            <div class="splash__icon-box">
-              <span class="splash__icon-name">{{ $t('splash.attendees') }}</span>
-            </div>
-          </a>
-        </div>
-        <div class="splash__trash">
-          <a class="splash__icon-container" href="https://2020.jsconf.mx/" target="_blank">
-            <img class="splash__icon splash__icon-trash" src="/icons/trash.svg" alt="trash icon">
-            <div class="splash__icon-box">
-              <span class="splash__icon-name">{{ $t('splash.trash') }}</span>
-            </div>
-          </a>
-        </div>
+    <div>
+      <div class="grid__container-menu menu__container">
+        <a class="menu__button" href="#about">
+          {{ $t('menu.about') }}
+        </a>
+        <a class="menu__button" href="#sponsors">
+          {{ $t('menu.sponsors') }}
+        </a>
+        <a class="menu__button" href="#speakers">
+          {{ $t('menu.speakers') }}
+        </a>
+        <a class="menu__button" href="#team">
+          {{ $t('menu.team') }}
+        </a>
+        <a class="menu__button" href="#social">
+          {{ $t('menu.social') }}
+        </a>
+      </div>
+      <div class="grid__container">
+
+      </div>
+      <div class="grid__container-side">
+
       </div>
     </div>
     <Footer />
@@ -41,111 +32,41 @@
 
 <script>
 import Header from '~/components/header.vue'
-import Banner from '~/components/Banner.vue'
 import Footer from '~/components/footer.vue'
 export default {
   name: 'index',
   components: {
     Header,
-    Banner,
     Footer
   }
 }
 </script>
 
 <style lang="scss">
-.splash {
-  margin: 0 auto;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  text-align: center;
-  flex-direction: column;
+.menu {
   &__container {
-    position: relative;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
   }
-  &__background {
+  &__button {
     width: 100%;
-    z-index: 0;
-    height: 89vh;
-  }
-  &__menu {
+    min-height: 30px;
+    background-color: $white;
+    font-family: $bold;
+    font-size: 14px;
+    color: $purple;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
-    width: 40%;
-    max-width: 376px;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    z-index: 3;
-    padding-right: 20px;
-    @include under(sm) {
-      width: 60%;
-    }
-    @include under(menu) {
-      width: 100%;
-      padding-left: 20px;
-      left: 0;
-      right: 0;
-      width: 100%;
-      margin: 0 auto;
-    }
-  }
-  &__trash {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    align-items: flex-end;
-    width: 100%;
-  }
-  &__icons {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-  }
-  &__icon {
-    width: 100%;
-    max-width: 80px;
-    &-trash {
-      margin-bottom: 10px;
-      max-width: 70px;
-    }
-    &-container {
-      text-decoration: none;
-      width: calc((100% / 2) - 10px);
-      margin-bottom: 30px;
-      min-height: 93px;
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-items: center;
-    }
-    &-name {
-      font-family: $regular;
-      font-size: 14px;
-      color: $dark-purple;
-      line-height: 22px;
-    }
-    &-box {
-      width: 100%;
-      border: 1px solid $dark-purple;
-      box-shadow: 10px 8px 1px 0px rgb(0 0 0 / 10%);
-      background-color: white;
-    }
+    justify-content: center;
+    align-items: baseline;
   }
 }
 </style>
