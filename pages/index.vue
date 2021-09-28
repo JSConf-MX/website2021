@@ -7,6 +7,7 @@
         <hero/>
         <about/>
         <sponsors/>
+        <speakers/>
       </div>
       <div class="grid__container-side">
 
@@ -23,6 +24,7 @@ import rightMenu from '~/components/right-menu.vue'
 import hero from '~/components/hero.vue'
 import about from '~/components/about.vue'
 import sponsors from '~/components/sponsors.vue'
+import speakers from '~/components/speakers.vue'
 export default {
   name: 'index',
   components: {
@@ -31,7 +33,8 @@ export default {
     rightMenu,
     hero,
     about,
-    sponsors
+    sponsors,
+    speakers
   }
 }
 </script>
