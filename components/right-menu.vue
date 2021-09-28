@@ -43,6 +43,11 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: baseline;
+    &:hover {
+      background-image: url('../static/site/sparkle.gif');
+      background-size: contain;
+      background-repeat: repeat;
+    }
   }
 }
 </style>
