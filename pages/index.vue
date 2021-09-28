@@ -1,12 +1,10 @@
 <template>
   <div>
     <Header />
-    <div>
+    <div class="grid__row">
       <right-menu/>
       <div class="grid__container">
-        <div class="hero">
-
-        </div>
+        <hero/>
       </div>
       <div class="grid__container-side">
 
@@ -20,41 +18,18 @@
 import Header from '~/components/header.vue'
 import Footer from '~/components/footer.vue'
 import rightMenu from '~/components/right-menu.vue'
+import hero from '~/components/hero.vue'
 export default {
   name: 'index',
   components: {
     Header,
     Footer,
-    rightMenu
+    rightMenu,
+    hero
   }
 }
 </script>
 
 <style lang="scss">
-.menu {
-  &__container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: baseline;
-  }
-  &__button {
-    width: 100%;
-    min-height: 30px;
-    background-color: $white;
-    font-family: $bold;
-    font-size: 14px;
-    color: $purple;
-    text-decoration: none;
-    padding: 5px 10px;
-    border-radius: 4px;
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: baseline;
-  }
-}
+
 </style>
