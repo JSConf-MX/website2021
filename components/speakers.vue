@@ -4,12 +4,17 @@
         <span class="speakers__title">Speakers</span>
         </div>
         <div class="speakers__container">
-            <div class="speakers__paragraph">
-                Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
-            </div>
-            <div class="speakers__photo">
-                <img class="speakers__decoration" src="/site/speakers.png" alt="">
-                <img class="speakers__photo-img" src="/site/community.png" alt="Mexican tech community">
+            <div v-for="n in 10" :key="n" class="speaker__container">
+              <div class="speaker__content">
+                <h2 class="speaker__name">SPEAKER’S NAME</h2>
+                <h3 class="speaker__title">Title Title Title Title </h3>
+                <p class="speaker__paragraph">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo exercitationem, temporibus culpa, vel dicta ullam non repellendus labore, ratione fugiat aliquam minima vero provident totam doloremque molestias at corrupti consectetur?
+                </p>
+              </div>
+              <div class="speaker__photo">
+                <div class="speaker__photo-img"></div>
+              </div>
             </div>
         </div>
     </div>
@@ -38,25 +43,51 @@
     font-size: 26px;
     color: $white;
   }
-  &__photo {
-    width: 50%;
-    position: relative;
-    &-img {
-      width: 100%;
+}
+.speaker {
+  &__container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 9px solid $dark-purple;
+    border-radius: 4px;
+    padding: 15px;
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.1), 7px 7px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    &:last-of-type {
+      margin-bottom: 0;
     }
   }
-  &__paragraph {
-    width: calc(50% - 20px);
-    color: $purple;
-    font-size: 14px;
-    font-family: $regular;
+  &__content {
+    width: calc(80% - 15px);
   }
-  &__decoration {
-    width: 100%;
-    position: absolute;
-    top: -20%;
-    left: -10%;
-    max-width: 80px;
+  &__name {
+    font-family: $bold;
+    font-size: 14px;
+    color: $pink;
+    margin-bottom: 15px;
+  }
+  &__title {
+    font-family: $bold;
+    font-size: 14px;
+    color: $dark-purple;
+    margin-bottom: 10px;
+  }
+  &__paragraph {
+    font-family: $regular;
+    font-size: 12px;
+    color: $dark-purple;
+  }
+  &__photo {
+    width: 20%;
+    &-img {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      border: 1px solid $dark-purple;
+    }
   }
 }
 </style>
