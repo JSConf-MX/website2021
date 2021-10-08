@@ -1,15 +1,20 @@
 <template>
     <div id="sponsors">
-        <div class="sponsors__header">
-        <span class="sponsors__title">Sponsors</span>
+        <div class="sponsor__header">
+        <span class="sponsor__title">Sponsors</span>
         </div>
-        <div class="sponsors__container">
-            <div class="sponsors__paragraph">
-                Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+        <div class="sponsor__container">
+            <div class="sponsor__photo">
+              <img class="sponsor__decoration" src="/site/tamagochi.png" alt="handheld digital pet">
             </div>
-            <div class="sponsors__photo">
-                <img class="sponsors__decoration" src="/site/sponsors.png" alt="">
-                <img class="sponsors__photo-img" src="/site/community.png" alt="Mexican tech community">
+            <div class="sponsor__paragraph">
+              It was popularised in the 1960s with the release of Letraset sheets containing
+              <a class="sponsor__button" href="#" target="_blank">
+                {{ $t('hero.button') }}
+              </a>
+            </div>
+            <div class="sponsor__shadow">
+              <img class="sponsor__shadow-img" src="/site/lila-shadow.png" alt="shadow in lila color">
             </div>
         </div>
     </div>
@@ -17,16 +22,16 @@
 
 <style lang="scss" scoped>
 #sponsors {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
-.sponsors {
+.sponsor {
   &__container {
     background-color: $white;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     padding: 30px 15px;
   }
   &__header {
@@ -39,24 +44,55 @@
     color: $white;
   }
   &__photo {
-    width: 50%;
+    width: 30%;
     position: relative;
+    z-index: 1;
     &-img {
       width: 100%;
     }
   }
   &__paragraph {
-    width: calc(50% - 20px);
+    width: calc(70% - 20px);
     color: $purple;
     font-size: 14px;
     font-family: $regular;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   &__decoration {
     width: 100%;
-    position: absolute;
-    top: -20%;
-    left: -10%;
-    max-width: 80px;
+    margin: 0 auto;
+    max-width: 100px;
+    display: block;
+  }
+  &__shadow {
+    width: 100%;
+    z-index: 0;
+    margin-top: -10px;
+    &-img {
+      max-width: 100%;
+    }
+  }
+  &__button {
+    background-color: $pink;
+    text-decoration: none;
+    font-family: $bold;
+    font-size: 19px;
+    color: $white;
+    padding: 8px 10px;
+    border-radius: 3px;
+    width: auto;
+    text-align: center;
+    margin: 10px auto 0;
+    &:hover{
+      background-image: url('../static/site/sparkle.gif');
+      background-size: contain;
+      background-repeat: repeat;
+      background-color: $white;
+      color: $pink;
+      border: 1px solid $pink;
+    }
   }
 }
 </style>
