@@ -1,14 +1,17 @@
 <template>
     <div class="grid__container-side">
         <follow-us/>
+        <important-links/>
     </div>
 </template>
 
 <script>
 import followUs from '~/components/follow-us.vue'
+import importantLinks from '~/components/important-links.vue'
 export default {
   components: {
-    followUs
+    followUs,
+    importantLinks
   }
 }
 </script>
