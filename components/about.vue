@@ -1,11 +1,11 @@
 <template>
     <div id="about">
         <div class="about__header">
-        <span class="about__title">About</span>
+        <span class="about__title"> {{ $t('about.title') }}</span>
         </div>
         <div class="about__container">
             <div class="about__paragraph">
-                Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+               {{ $t('about.description') }}
             </div>
             <div class="about__photo">
                 <img class="about__decoration" src="/site/about.png" alt="">
