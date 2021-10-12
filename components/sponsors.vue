@@ -1,16 +1,16 @@
 <template>
     <div id="sponsors">
         <div class="sponsor__header">
-        <span class="sponsor__title">Sponsors</span>
+        <span class="sponsor__title">{{ $t('sponsors.title') }}</span>
         </div>
         <div class="sponsor__container">
             <div class="sponsor__photo">
               <img class="sponsor__decoration" src="/site/tamagochi.png" alt="handheld digital pet">
             </div>
             <div class="sponsor__paragraph">
-              It was popularised in the 1960s with the release of Letraset sheets containing
-              <a class="sponsor__button" href="#" target="_blank">
-                {{ $t('hero.button') }}
+              {{ $t('sponsors.description') }}
+              <a class="sponsor__button" href="https://docs.google.com/presentation/d/112hkUEV1XQDAHL6T7BSx-uIZ-fUlmm6iaQZIkpUiDtc/edit?usp=sharing" target="_blank">
+                {{ $t('sponsors.button') }}
               </a>
             </div>
             <div class="sponsor__shadow">
@@ -85,6 +85,8 @@
     width: auto;
     text-align: center;
     margin: 10px auto 0;
+    z-index: 1;
+    border: 1px solid transparent;
     &:hover{
       background-image: url('../static/site/sparkle.gif');
       background-size: contain;
