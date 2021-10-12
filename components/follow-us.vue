@@ -1,7 +1,7 @@
 <template>
     <div class="follow__container" id="social">
         <h2 class="follow__title">
-            Follow us
+            {{ $t('social.title') }}
         </h2>
         <img
             class="follow__img"
