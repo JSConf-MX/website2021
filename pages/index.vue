@@ -9,9 +9,7 @@
         <sponsors/>
         <speakers/>
       </div>
-      <div class="grid__container-side">
-        <side-bar/>
-      </div>
+      <side-bar/>
     </div>
     <Footer />
   </div>

@@ -1,62 +1,17 @@
 <template>
-    <div class="follow__container">
-        <h2 class="follow__title">
-            Follow us
-        </h2>
-        <img
-            class="follow__img"
-            src="/site/cat.png"
-            alt="pixeled cat"
-        >
-        <div class="follow__social">
-            <a
-                href="https://www.instagram.com/jsconfmx/"
-                target="_blank"
-                class="follow__social-link"
-            >
-                <img
-                    class="follow__social-icon"
-                    src="/site/instagram.png"
-                    alt="instagram icon"
-                >
-                <span>jsconfmx</span>
-            </a>
-            <a
-                href="https://www.facebook.com/JSConfMexico"
-                target="_blank"
-                class="follow__social-link"
-            >
-                <img
-                    class="follow__social-icon follow__social-icon--small"
-                    src="/site/facebook.png"
-                    alt="facebook icon"
-                >
-                <span>JSConf MX</span>
-            </a>
-            <a
-                href="https://twitter.com/jsconfmx"
-                target="_blank"
-                class="follow__social-link"
-            >
-                <img
-                    class="follow__social-icon"
-                    src="/site/twitter.png"
-                    alt="twitter icon"
-                >
-                <span>JSConf MX</span>
-            </a>
-        </div>
-        <div class="follow__email">
-            <a
-                href="mailto:info@jsconf.mx"
-                class="follow__email-link"
-            >
-                info@jsconf.mx
-            </a>
-        </div>
-
+    <div class="grid__container-side">
+        <follow-us/>
     </div>
 </template>
+
+<script>
+import followUs from '~/components/follow-us.vue'
+export default {
+  components: {
+    followUs
+  }
+}
+</script>
 
 <style lang="scss" scoped>
 .follow {
