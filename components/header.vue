@@ -43,6 +43,9 @@ export default {
   align-items: center;
   padding: 7px 15px;
   width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 99999;
   // border-bottom: 3px solid $dark-purple;
   &__btn {
     &-container {
