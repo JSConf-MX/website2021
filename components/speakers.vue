@@ -1,7 +1,7 @@
 <template>
     <div id="speakers">
         <div class="speakers__header">
-        <span class="speakers__title">Speakers</span>
+        <span class="speakers__title">{{ $t('speakers.title') }}</span>
         </div>
         <div class="speakers__container">
             <div v-for="n in 10" :key="n" class="speaker__container">

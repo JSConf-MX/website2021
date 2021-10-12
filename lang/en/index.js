@@ -4,6 +4,7 @@ const footer = require('./footer.js')
 const hero = require('./hero.js')
 const about = require('./about.js')
 const sponsors = require('./sponsors.js')
+const speakers = require('./speakers.js')
 
 module.exports = {
   splash,
@@ -11,5 +12,6 @@ module.exports = {
   footer,
   hero,
   about,
-  sponsors
+  sponsors,
+  speakers
 }
