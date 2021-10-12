@@ -43,7 +43,7 @@ export default {
   align-items: center;
   padding: 7px 15px;
   width: 100%;
-  border-bottom: 3px solid $dark-purple;
+  // border-bottom: 3px solid $dark-purple;
   &__btn {
     &-container {
       display: flex;

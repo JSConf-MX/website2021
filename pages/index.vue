@@ -10,7 +10,7 @@
         <speakers/>
       </div>
       <div class="grid__container-side">
-
+        <side-bar/>
       </div>
     </div>
     <Footer />
@@ -25,6 +25,7 @@ import hero from '~/components/hero.vue'
 import about from '~/components/about.vue'
 import sponsors from '~/components/sponsors.vue'
 import speakers from '~/components/speakers.vue'
+import sideBar from '~/components/side-bar.vue'
 export default {
   name: 'index',
   components: {
@@ -34,7 +35,8 @@ export default {
     hero,
     about,
     sponsors,
-    speakers
+    speakers,
+    sideBar
   }
 }
 </script>
