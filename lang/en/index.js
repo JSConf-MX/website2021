@@ -6,6 +6,7 @@ const about = require('./about.js')
 const sponsors = require('./sponsors.js')
 const speakers = require('./speakers.js')
 const social = require('./social.js')
+const links = require('./links.js')
 
 module.exports = {
   splash,
@@ -15,5 +16,6 @@ module.exports = {
   about,
   sponsors,
   speakers,
-  social
+  social,
+  links
 }

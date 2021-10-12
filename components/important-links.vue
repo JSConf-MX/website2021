@@ -4,17 +4,17 @@
         <ul class="links__list">
             <li class="links__item">
                 <a class="links__anchor" href="#">
-                    Code of Conduct
+                    {{ $t('links.coc') }}
                 </a>
             </li>
             <li class="links__item">
                 <a class="links__anchor" href="#">
-                    FAQ
+                    {{ $t('links.faq') }}
                 </a>
             </li>
             <li class="links__item">
                 <a class="links__anchor" href="https://docs.google.com/presentation/d/1n598TzJWZ4Rz2wXyU-TAAkuadRT3-LjP1vPhXYsrBMY/edit?usp=sharing" target="_blank">
-                    JSConf 2020
+                    {{ $t('links.edition') }}
                 </a>
             </li>
         </ul>
@@ -43,6 +43,10 @@
         flex-wrap: wrap;
         justify-content: space-evenly;
         align-items: center;
+    }
+    &__item {
+        width: 21vw;
+        text-align: center;
     }
     &__anchor {
         color: $orange;
