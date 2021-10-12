@@ -37,7 +37,7 @@
         list-style: none;
         padding: 0;
         width: 100%;
-        min-height: 30vh;
+        min-height: 238px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -45,8 +45,9 @@
         align-items: center;
     }
     &__item {
-        width: 21vw;
+        width: 100%;
         text-align: center;
+        max-width: 80%;
     }
     &__anchor {
         color: $orange;
