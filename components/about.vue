@@ -41,6 +41,9 @@
   &__photo {
     width: 50%;
     position: relative;
+    @include under($breakpoint-menu) {
+      width: 100%;
+    }
     &-img {
       width: 100%;
     }
@@ -50,6 +53,10 @@
     color: $purple;
     font-size: 14px;
     font-family: $regular;
+    @include under($breakpoint-menu) {
+      width: 100%;
+      margin-bottom: 20px;
+    }
   }
   &__decoration {
     width: 100%;
@@ -57,6 +64,9 @@
     top: -20%;
     left: -10%;
     max-width: 80px;
+    @include under($breakpoint-menu) {
+      display: none;
+    }
   }
 }
 </style>

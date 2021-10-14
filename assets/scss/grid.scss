@@ -6,14 +6,33 @@
         &-menu {
             width: 18%;
             padding: 30px 15px;
+            @include under($breakpoint-lg) {
+                width: 100%;
+                padding: 5px 15px;
+            }
         }
         &-side {
             width: 30%;
             padding: 30px 15px;
+            @include under($breakpoint-lg) {
+                width: 35%;
+            }
+            @include under($breakpoint-md) {
+                width: 100%;
+                padding:0px 15px;
+            }
         }
         width: 52%;
         display: flex;
         flex-direction: column;
+        @include under($breakpoint-lg) {
+            width: 65%;
+            padding-left: 15px;
+        }
+        @include under($breakpoint-md) {
+            width: 100%;
+            padding: 0px 15px;
+        }
     }
     &__row {
         flex-direction: row;

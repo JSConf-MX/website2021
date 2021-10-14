@@ -13,7 +13,7 @@
                 </a>
             </li>
             <li class="links__item">
-                <a class="links__anchor" href="https://docs.google.com/presentation/d/1n598TzJWZ4Rz2wXyU-TAAkuadRT3-LjP1vPhXYsrBMY/edit?usp=sharing" target="_blank">
+                <a class="links__anchor" href="https://2020.jsconf.mx" target="_blank">
                     {{ $t('links.edition') }}
                 </a>
             </li>
@@ -26,10 +26,17 @@
     &__container {
         margin-top: 30px;
         position: relative;
+        @include under($breakpoint-md) {
+            background-color: $green;
+            border: 15px solid $brown;
+        }
     }
     &__img {
         width: 100%;
         z-index: 0;
+        @include under($breakpoint-md) {
+            display: none;
+        }
     }
     &__list {
         position: absolute;
@@ -43,6 +50,9 @@
         flex-wrap: wrap;
         justify-content: space-evenly;
         align-items: center;
+        @include under($breakpoint-md) {
+            position: relative;
+        }
     }
     &__item {
         width: 100%;

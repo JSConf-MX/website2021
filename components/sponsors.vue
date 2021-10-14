@@ -47,6 +47,9 @@
     width: 30%;
     position: relative;
     z-index: 1;
+    @include under($breakpoint-menu) {
+      display: none;
+    }
     &-img {
       width: 100%;
     }
@@ -59,6 +62,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    @include under($breakpoint-menu) {
+      width: 100%;
+    }
   }
   &__decoration {
     width: 100%;

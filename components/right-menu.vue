@@ -26,6 +26,17 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: baseline;
+    @include under($breakpoint-lg) {
+      position: sticky;
+      top: 54px;
+      flex-direction: row;
+      width: 100%;
+      z-index: 99;
+      background: rgba(255,255,255,0.6);
+    }
+    @include under($breakpoint-menu) {
+      display: none;
+    }
   }
   &__button {
     width: 100%;
@@ -43,6 +54,12 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: baseline;
+    @include under($breakpoint-lg) {
+      width: auto;
+      border: 1px solid $purple;
+      margin-right: 5px;
+      margin-bottom: 0;
+    }
     &:hover {
       background-image: url('../static/site/sparkle.gif');
       background-size: contain;

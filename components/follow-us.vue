@@ -64,6 +64,9 @@
         border-radius: 3px;
         padding: 15px 20px 0px;
         position: relative;
+        @include under($breakpoint-md) {
+            padding: 15px 20px !important;
+        }
     }
     &__title {
         font-family: $pixeled;
@@ -76,6 +79,9 @@
         width: 100%;
         margin-left: -25px;
         margin-top: 30px;
+        @include under($breakpoint-md) {
+            display: none;
+        }
     }
     &__email {
         background-color: $medium-purple;
@@ -102,6 +108,15 @@
         top: 23%;
         right: 20px;
         background-color: rgba(255,255,255,0.5);
+        @include under($breakpoint-md) {
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-bottom: 30px;
+        }
         &-link {
             font-family: $regular;
             font-size: 14px;

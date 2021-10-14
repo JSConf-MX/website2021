@@ -59,15 +59,26 @@
     &:last-of-type {
       margin-bottom: 0;
     }
+    @include under($breakpoint-menu) {
+      flex-direction: column-reverse;
+      justify-content: center;
+    }
   }
   &__content {
     width: calc(80% - 15px);
+    @include under($breakpoint-menu) {
+      width: 100%;
+    }
   }
   &__name {
     font-family: $bold;
     font-size: 14px;
     color: $pink;
     margin-bottom: 15px;
+    @include under($breakpoint-menu) {
+      text-align: center;
+      margin-top: 15px;
+    }
   }
   &__title {
     font-family: $bold;
@@ -82,11 +93,17 @@
   }
   &__photo {
     width: 20%;
+    @include under($breakpoint-menu) {
+      width: 100%;
+    }
     &-img {
       border-radius: 50%;
       width: 100px;
       height: 100px;
       border: 1px solid $dark-purple;
+      @include under($breakpoint-menu) {
+        margin: 0 auto;
+      }
     }
   }
 }
