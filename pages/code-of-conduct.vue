@@ -11,6 +11,7 @@
                     </p>
                 </div>
                 <reporting/>
+                <enforcement/>
             </div>
             <side-bar/>
         </div>
@@ -24,6 +25,7 @@ import Footer from '~/components/footer.vue'
 import rightMenu from '~/components/right-menu.vue'
 import cocHero from '~/components/code-of-conduct/coc-hero.vue'
 import reporting from '~/components/code-of-conduct/reporting.vue'
+import enforcement from '~/components/code-of-conduct/enforcement.vue'
 import sideBar from '~/components/side-bar.vue'
 export default {
   components: {
@@ -32,7 +34,8 @@ export default {
     rightMenu,
     cocHero,
     reporting,
-    sideBar
+    sideBar,
+    enforcement
   }
 }
 </script>

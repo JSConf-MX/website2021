@@ -10,5 +10,9 @@ module.exports = {
   reportingContent2: 'You can make a personal report by:',
   reportingBullet1: 'Contacting a staff member, identified by our t-shirts with the word “organizer”.',
   reportingBullet2: 'Twitter direct messages: our DMs on twitter are always open.',
-  reportingBullet3: 'Email: but it might take up a few hours or a day before we can respond on email during or after the event.'
+  reportingBullet3: 'Email: but it might take up a few hours or a day before we can respond on email during or after the event.',
+  enforcementTitle: 'Enforcement',
+  enforcementDescription1: 'Participants asked to stop any harassing behavior are expected to comply immediately.',
+  enforcementDescription2: 'If a participant engages in harassing behaviour, event organizers retain the right to take any actions to keep the event a welcoming environment for all participants. This includes warning the offender or expulsion from the conference with no refund.',
+  enforcementDescription3: 'We expect participants to follow these rules at conference and workshop venues and conference-related social events.'
 }

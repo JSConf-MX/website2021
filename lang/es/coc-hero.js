@@ -10,6 +10,10 @@ module.exports = {
   reportingContent2: 'Puedes hacer tu reporte por alguno de los siguientes medios:',
   reportingBullet1: 'Contacta a algún miembro del personal, podrás identificarnos por nuestras playeras con la palabra “organizador”.',
   reportingBullet2: 'Mensajes directos por Twitter: nuestros mensajes directos en Twitter se encuentran siempre abierta',
-  reportingBullet3: 'Correo electrónico: Puedes enviarnos un correo electrónico, tardaremos aproximadamente una hora en responderte.'
+  reportingBullet3: 'Correo electrónico: Puedes enviarnos un correo electrónico, tardaremos aproximadamente una hora en responderte.',
+  enforcementTitle: 'Cumplimiento',
+  enforcementDescription1: 'Se espera que a las y los participantes que se les solicite detener cualquier comportamiento de acoso, lo hagan de inmediato.',
+  enforcementDescription2: 'Cualquiera que se involucre en conductas de acoso las y los organizadores del evento se reservan el derecho a tomar cualquier medida necesaria para mantener el evento con un ambiente acogedor para todas y todos los participantes. Esto incluye advertencias o la expulsión de la conferencia sin derecho a devoluciones para el agraviante.',
+  enforcementDescription3: 'Esperamos que todas y todos los participante sigan estas reglas durante su permanencia en la conferencia, talleres y cualquier evento social relacionado con la conferencia.'
 
 }
