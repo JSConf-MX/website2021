@@ -5,6 +5,11 @@
       <right-menu/>
       <div class="grid__container">
         <coc-hero/>
+        <div class="coc-about">
+            <p class="coc-about__content">
+                {{ $t('cocHero.content') }}
+            </p>
+        </div>
       </div>
       <side-bar/>
     </div>
@@ -30,4 +35,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.coc-about {
+    background-color: $white;
+    padding: 30px 20px;
+    &__content {
+        color: $dark-purple;
+        font-family: $regular;
+        font-size: 14px;
+        line-height: 21px;
+    }
+}
 </style>

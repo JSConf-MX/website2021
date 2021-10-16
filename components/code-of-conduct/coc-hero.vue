@@ -26,6 +26,9 @@
     color: $white;
     font-family: $pixeled;
     text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: rgba($color: $dark-purple, $alpha: 0.4)
   }
 }
 </style>
