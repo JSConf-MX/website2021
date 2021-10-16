@@ -1,20 +1,21 @@
 <template>
-  <div>
-    <Header />
-    <div class="grid grid__row">
-      <right-menu/>
-      <div class="grid__container">
-        <coc-hero/>
-        <div class="coc-about">
-            <p class="coc-about__content">
-                {{ $t('cocHero.content') }}
-            </p>
+    <div>
+        <Header />
+        <div class="grid grid__row">
+            <right-menu/>
+            <div class="grid__container">
+                <coc-hero/>
+                <div class="coc-about">
+                    <p class="coc-about__content">
+                        {{ $t('cocHero.content') }}
+                    </p>
+                </div>
+                <reporting/>
+            </div>
+            <side-bar/>
         </div>
-      </div>
-      <side-bar/>
+        <Footer />
     </div>
-    <Footer />
-  </div>
 </template>
 
 <script>
@@ -22,6 +23,7 @@ import Header from '~/components/header.vue'
 import Footer from '~/components/footer.vue'
 import rightMenu from '~/components/right-menu.vue'
 import cocHero from '~/components/code-of-conduct/coc-hero.vue'
+import reporting from '~/components/code-of-conduct/reporting.vue'
 import sideBar from '~/components/side-bar.vue'
 export default {
   components: {
@@ -29,6 +31,7 @@ export default {
     Footer,
     rightMenu,
     cocHero,
+    reporting,
     sideBar
   }
 }
@@ -38,6 +41,7 @@ export default {
 .coc-about {
     background-color: $white;
     padding: 30px 20px;
+    margin-bottom: 30px;
     &__content {
         color: $dark-purple;
         font-family: $regular;
