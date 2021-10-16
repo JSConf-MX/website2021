@@ -1,6 +1,8 @@
 <template>
   <div class="coc-hero">
-    <h2 class="coc-hero__title">Codigo de conducta</h2>
+    <h2 class="coc-hero__title">
+      {{ $t('cocHero.title') }}
+    </h2>
   </div>
 </template>
 
