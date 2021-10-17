@@ -24,5 +24,11 @@ module.exports = {
   harrasmentBullet5: 'Interrupciones constantes durante las conversaciones u otros eventos.',
   harrasmentBullet6: 'Contacto físico inapropiado.',
   harrasmentBullet7: 'Atención sexual no deseada.',
-  harrasmentBullet8: 'Abogar por, o alentar a alguna de las conductas anteriormente mencionadas.'
+  harrasmentBullet8: 'Abogar por, o alentar a alguna de las conductas anteriormente mencionadas.',
+  helpTitle: '¿Necesitas ayuda?',
+  helpSubtitle: '¡Contáctanos!',
+  helpTwitter: 'Twitter:',
+  helpEmail: 'Correo electrónico:',
+  helpPhone: 'Teléfono (MX):',
+  helpContent: 'El personal de la conferencia estará feliz de ayudar a todas y todos los participantes a sentirte segura o seguro durante toda la conferencia.'
 }

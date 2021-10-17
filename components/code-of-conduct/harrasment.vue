@@ -77,6 +77,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    line-height: 21px;
     &--width {
         width: calc(100% - 30px);
     }

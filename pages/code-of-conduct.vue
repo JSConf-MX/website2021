@@ -13,6 +13,7 @@
                 <reporting/>
                 <enforcement/>
                 <harrasment/>
+                <help/>
             </div>
             <side-bar/>
         </div>
@@ -28,6 +29,7 @@ import cocHero from '~/components/code-of-conduct/coc-hero.vue'
 import reporting from '~/components/code-of-conduct/reporting.vue'
 import enforcement from '~/components/code-of-conduct/enforcement.vue'
 import harrasment from '~/components/code-of-conduct/harrasment.vue'
+import help from '~/components/code-of-conduct/help.vue'
 import sideBar from '~/components/side-bar.vue'
 export default {
   components: {
@@ -38,7 +40,8 @@ export default {
     reporting,
     sideBar,
     enforcement,
-    harrasment
+    harrasment,
+    help
   }
 }
 </script>

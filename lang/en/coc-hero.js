@@ -24,5 +24,11 @@ module.exports = {
   harrasmentBullet5: 'Sustained disruption of talks or other events.',
   harrasmentBullet6: 'Inappropriate physical contact.',
   harrasmentBullet7: 'Unwelcome sexual attention.',
-  harrasmentBullet8: 'Advocating for, or encouraging, any of the above behaviour.'
+  harrasmentBullet8: 'Advocating for, or encouraging, any of the above behaviour.',
+  helpTitle: 'Do you need help?',
+  helpSubtitle: 'Contact us!',
+  helpTwitter: 'Twitter:',
+  helpEmail: 'Email:',
+  helpPhone: 'Phone (MX):',
+  helpContent: 'Conference staff will be happy to help participants to feel safe for the duration of the conference.'
 }
