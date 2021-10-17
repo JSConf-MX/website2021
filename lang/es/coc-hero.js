@@ -30,5 +30,8 @@ module.exports = {
   helpTwitter: 'Twitter:',
   helpEmail: 'Correo electrónico:',
   helpPhone: 'Teléfono (MX):',
-  helpContent: 'El personal de la conferencia estará feliz de ayudar a todas y todos los participantes a sentirte segura o seguro durante toda la conferencia.'
+  helpContent: 'El personal de la conferencia estará feliz de ayudar a todas y todos los participantes a sentirte segura o seguro durante toda la conferencia.',
+  attributionTitle: 'Atribución',
+  attributionContent: 'Este código de conducta está basado en ',
+  attributionAnd: 'y'
 }

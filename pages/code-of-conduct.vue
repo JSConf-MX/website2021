@@ -14,6 +14,7 @@
                 <enforcement/>
                 <harrasment/>
                 <help/>
+                <attribution/>
             </div>
             <side-bar/>
         </div>
@@ -30,6 +31,7 @@ import reporting from '~/components/code-of-conduct/reporting.vue'
 import enforcement from '~/components/code-of-conduct/enforcement.vue'
 import harrasment from '~/components/code-of-conduct/harrasment.vue'
 import help from '~/components/code-of-conduct/help.vue'
+import attribution from '~/components/code-of-conduct/attribution.vue'
 import sideBar from '~/components/side-bar.vue'
 export default {
   components: {
@@ -41,7 +43,8 @@ export default {
     sideBar,
     enforcement,
     harrasment,
-    help
+    help,
+    attribution
   }
 }
 </script>
