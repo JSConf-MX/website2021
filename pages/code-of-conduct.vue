@@ -12,6 +12,7 @@
                 </div>
                 <reporting/>
                 <enforcement/>
+                <harrasment/>
             </div>
             <side-bar/>
         </div>
@@ -26,6 +27,7 @@ import rightMenu from '~/components/right-menu.vue'
 import cocHero from '~/components/code-of-conduct/coc-hero.vue'
 import reporting from '~/components/code-of-conduct/reporting.vue'
 import enforcement from '~/components/code-of-conduct/enforcement.vue'
+import harrasment from '~/components/code-of-conduct/harrasment.vue'
 import sideBar from '~/components/side-bar.vue'
 export default {
   components: {
@@ -35,7 +37,8 @@ export default {
     cocHero,
     reporting,
     sideBar,
-    enforcement
+    enforcement,
+    harrasment
   }
 }
 </script>

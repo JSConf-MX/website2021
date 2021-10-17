@@ -14,5 +14,15 @@ module.exports = {
   enforcementTitle: 'Enforcement',
   enforcementDescription1: 'Participants asked to stop any harassing behavior are expected to comply immediately.',
   enforcementDescription2: 'If a participant engages in harassing behaviour, event organizers retain the right to take any actions to keep the event a welcoming environment for all participants. This includes warning the offender or expulsion from the conference with no refund.',
-  enforcementDescription3: 'We expect participants to follow these rules at conference and workshop venues and conference-related social events.'
+  enforcementDescription3: 'We expect participants to follow these rules at conference and workshop venues and conference-related social events.',
+  harrasmentTitle: 'Harrasment',
+  harrasmentContent: 'Harassment includes, but is not limited to:',
+  harrasmentBullet1: 'Verbal or written comments that reinforce social structures of domination related to gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, religion.',
+  harrasmentBullet2: 'Sexual images in public spaces.',
+  harrasmentBullet3: 'Deliberate intimidation, stalking, or following.',
+  harrasmentBullet4: 'Harassing photography or recording.',
+  harrasmentBullet5: 'Sustained disruption of talks or other events.',
+  harrasmentBullet6: 'Inappropriate physical contact.',
+  harrasmentBullet7: 'Unwelcome sexual attention.',
+  harrasmentBullet8: 'Advocating for, or encouraging, any of the above behaviour.'
 }
