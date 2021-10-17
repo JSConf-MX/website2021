@@ -69,12 +69,21 @@
     flex-direction: column;
     justify-content: center;
     line-height: 21px;
+    @include under($breakpoint-coc) {
+      width: 100%;
+    }
   }
   &__img {
     width: calc(100% / 2);
+    @include under($breakpoint-coc) {
+      width: 100%;
+    }
     &-photo {
       width: 100%;
       max-width: 100%;
+      @include under($breakpoint-coc) {
+        display: none;
+      }
     }
   }
   &__anchor {

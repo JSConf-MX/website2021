@@ -95,6 +95,7 @@
         width: 100%;
         max-width: 100%;
         margin-bottom: 30px;
+        margin-top: 30px;
     }
 }
 </style>

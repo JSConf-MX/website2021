@@ -9,9 +9,9 @@
         <a class="menu__button" href="#speakers">
           {{ $t('menu.speakers') }}
         </a>
-        <a class="menu__button" href="#team">
+        <!-- <a class="menu__button" href="#team">
           {{ $t('menu.team') }}
-        </a>
+        </a> -->
         <a class="menu__button" href="#social">
           {{ $t('menu.social') }}
         </a>

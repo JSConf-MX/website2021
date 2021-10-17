@@ -21,6 +21,9 @@
   justify-content: flex-start;
   align-items: flex-end;
   padding: 30px 0px;
+  @include under($breakpoint-sm) {
+    background-position: left;
+  }
   &__title {
     font-size: 20px;
     color: $white;
@@ -28,7 +31,12 @@
     text-align: right;
     text-transform: uppercase;
     letter-spacing: 1px;
-    background-color: rgba($color: $dark-purple, $alpha: 0.4)
+    background-color: rgba($color: $dark-purple, $alpha: 0.4);
+    @include under($breakpoint-sm) {
+      background-color: rgba($color: $dark-purple, $alpha: 0.6);
+      text-align: center;
+      width: 100%;
+    }
   }
 }
 </style>
