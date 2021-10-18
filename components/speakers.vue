@@ -6,7 +6,16 @@
         <div class="speakers__container">
             <div v-for="(speaker, index) in speakers" :key="index" class="speaker__container">
               <div class="speaker__content">
-                <h2 class="speaker__name">{{speaker.name}}</h2>
+                <a
+                  :href="speaker.link"
+                  target="_blank"
+                  class="speaker__link"
+                >
+                  <h2 class="speaker__name">
+                    {{speaker.name}}
+                    <img class="speaker__icon" src="/icons/external-link.png"/>
+                  </h2>
+                </a>
                 <h3 class="speaker__title">{{speaker.title}}</h3>
                 <p class="speaker__paragraph">
                   {{speaker.abstract}}
@@ -75,6 +84,17 @@ export default {
       justify-content: center;
     }
   }
+  &__link {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+      text-decoration-color: $pink;
+    }
+  }
+  &__icon {
+    width: 100%;
+    max-width: 11px;
+  }
   &__content {
     width: calc(80% - 15px);
     @include under($breakpoint-menu) {
@@ -106,6 +126,7 @@ export default {
     width: 20%;
     @include under($breakpoint-menu) {
       width: 100%;
+      text-align: center
     }
     &-img {
       border-radius: 50%;
