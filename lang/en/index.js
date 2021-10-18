@@ -8,6 +8,7 @@ const speakers = require('./speakers.js')
 const social = require('./social.js')
 const links = require('./links.js')
 const cocHero = require('./coc-hero.js')
+const faq = require('./faq.js')
 
 module.exports = {
   splash,
@@ -19,5 +20,6 @@ module.exports = {
   speakers,
   social,
   links,
-  cocHero
+  cocHero,
+  faq
 }
