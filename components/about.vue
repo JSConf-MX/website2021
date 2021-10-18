@@ -53,6 +53,7 @@
     color: $purple;
     font-size: 14px;
     font-family: $regular;
+    line-height: 21px;
     @include under($breakpoint-menu) {
       width: 100%;
       margin-bottom: 20px;
