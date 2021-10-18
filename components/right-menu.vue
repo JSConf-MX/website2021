@@ -1,20 +1,23 @@
 <template>
     <div class="grid__container-menu menu__container">
-        <a class="menu__button" href="#about">
+      <NuxtLink to="/#about" class="menu__button">
+        {{ $t('menu.about') }}
+      </NuxtLink>
+        <!-- <a class="menu__button" href="#about">
           {{ $t('menu.about') }}
-        </a>
-        <a class="menu__button" href="#sponsors">
-          {{ $t('menu.sponsors') }}
-        </a>
-        <a class="menu__button" href="#speakers">
-          {{ $t('menu.speakers') }}
-        </a>
-        <!-- <a class="menu__button" href="#team">
-          {{ $t('menu.team') }}
         </a> -->
-        <a class="menu__button" href="#social">
+        <NuxtLink to="/#sponsors" class="menu__button">
+          {{ $t('menu.sponsors') }}
+        </NuxtLink>
+        <NuxtLink to="/#speakers" class="menu__button">
+          {{ $t('menu.speakers') }}
+        </NuxtLink>
+        <!-- <NuxtLink to="/#team" class="menu__button">
+          {{ $t('menu.team') }}
+        </NuxtLink> -->
+        <NuxtLink to="/#social" class="menu__button">
           {{ $t('menu.social') }}
-        </a>
+        </NuxtLink>
     </div>
 </template>
 
