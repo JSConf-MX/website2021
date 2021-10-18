@@ -43,7 +43,7 @@
                     src="/site/twitter.png"
                     alt="twitter icon"
                 >
-                <span>JSConf MX</span>
+                <span>jsconfmx</span>
             </a>
         </div>
         <div class="follow__email">
