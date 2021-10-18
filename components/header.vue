@@ -1,9 +1,11 @@
 <template>
   <header class="header">
-    <div class="header__logo-container">
-      <img class="header__logo" src="/logo.svg" alt="JSConf Mexico logo 2021">
-      <h1 class="header__logo-title">{{ $t('splash.title') }}</h1>
-    </div>
+    <NuxtLink to="/" style="text-decoration: none;">
+      <div class="header__logo-container">
+        <img class="header__logo" src="/logo.svg" alt="JSConf Mexico logo 2021">
+        <h1 class="header__logo-title">{{ $t('splash.title') }}</h1>
+      </div>
+    </NuxtLink>
     <div class="header__btn-container">
       <nuxt-link
         v-model="selectedValue"

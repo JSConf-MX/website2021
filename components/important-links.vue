@@ -3,9 +3,9 @@
         <img class="links__img" src="/site/game.png" alt="old video game console">
         <ul class="links__list">
             <li class="links__item">
-                <a class="links__anchor" href="#">
+                <NuxtLink to="/code-of-conduct" class="links__anchor">
                     {{ $t('links.coc') }}
-                </a>
+                </NuxtLink>
             </li>
             <li class="links__item">
                 <a class="links__anchor" href="#">
