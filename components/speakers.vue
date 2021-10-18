@@ -4,21 +4,32 @@
         <span class="speakers__title">{{ $t('speakers.title') }}</span>
         </div>
         <div class="speakers__container">
-            <div v-for="n in 10" :key="n" class="speaker__container">
+            <div v-for="(speaker, index) in speakers" :key="index" class="speaker__container">
               <div class="speaker__content">
-                <h2 class="speaker__name">SPEAKER’S NAME</h2>
-                <h3 class="speaker__title">Title Title Title Title </h3>
+                <h2 class="speaker__name">{{speaker.name}}</h2>
+                <h3 class="speaker__title">{{speaker.title}}</h3>
                 <p class="speaker__paragraph">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo exercitationem, temporibus culpa, vel dicta ullam non repellendus labore, ratione fugiat aliquam minima vero provident totam doloremque molestias at corrupti consectetur?
+                  {{speaker.abstract}}
                 </p>
               </div>
               <div class="speaker__photo">
-                <div class="speaker__photo-img"></div>
+                <img class="speaker__photo-img" :src="speaker.img" :alt="speaker.name">
               </div>
             </div>
         </div>
     </div>
 </template>
+
+<script>
+import { speakers } from '~/utils/speakers'
+export default {
+  data() {
+    return {
+      speakers
+    }
+  }
+}
+</script>
 
 <style lang="scss" scoped>
 #speakers {
@@ -101,6 +112,7 @@
       width: 100px;
       height: 100px;
       border: 1px solid $dark-purple;
+      object-fit: cover;
       @include under($breakpoint-menu) {
         margin: 0 auto;
       }
