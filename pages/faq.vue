@@ -13,9 +13,24 @@
                 <h3 class="faq__subtitle">{{ $t('faq.question1') }}</h3>
                 <p class="faq__content">
                   {{ $t('faq.answer1') }}
-                  <a href="https://docs.google.com/presentation/d/1n598TzJWZ4Rz2wXyU-TAAkuadRT3-LjP1vPhXYsrBMY/edit?usp=sharing" target="_blank">
+                  <a class="faq__link" href="https://docs.google.com/presentation/d/1n598TzJWZ4Rz2wXyU-TAAkuadRT3-LjP1vPhXYsrBMY/edit?usp=sharing" target="_blank">
                     {{ $t('faq.answer1Dot1') }}
                   </a>
+                </p>
+                <h3 class="faq__subtitle">{{ $t('faq.question2') }}</h3>
+                <p class="faq__content">
+                  {{ $t('faq.answer2') }}
+                </p>
+                <h3 class="faq__subtitle">{{ $t('faq.question3') }}</h3>
+                <p class="faq__content">
+                  {{ $t('faq.answer3') }}
+                  <a class="faq__link" href="#" target="_blank">
+                    {{ $t('faq.answer3Dot1') }}
+                  </a>
+                </p>
+                 <h3 class="faq__subtitle">{{ $t('faq.question4') }}</h3>
+                <p class="faq__content">
+                  {{ $t('faq.answer4') }}
                 </p>
               </div>
             </div>
@@ -82,12 +97,24 @@ export default {
     font-family: $regular;
     font-size: 14px;
     line-height: 21px;
+    margin-bottom: 20px;
+    &:last-of-type {
+      margin-bottom: 0;
+    }
   }
   &__subtitle {
     color: $pink;
     font-family: $bold;
     font-size: 14px;
     margin-bottom: 5px;
+  }
+  &__link {
+    text-decoration-color: $orange;
+    color: $orange;
+    &:hover {
+      text-decoration-color: $pink;
+      color: $pink;
+    }
   }
 }
 </style>
