@@ -1,5 +1,12 @@
 export const speakers = [
     {
+        name: 'Eduardo San Martin Morote',
+        title: 'Pasado, Presente, y Futuro del Frontend Routing',
+        abstract: 'Hoy en día, toda Single Page Application usa un Router. Todos los frameworks de frontend tienen uno o varios routers con APIs más o menos parecidas. Y esto lo damos por hecho, como si el tema de frontend routing fuese muy simple, pero al contrario, el frontend routing es un tema muy complicado que se basa en APIs del navegador que han cambiado mucho a lo largo de los últimos 15 años. Durante esta charla, hablaremos de las APIs del pasado, presente y futuro que se esconden detrás de cada librería de frontend routing y comprenderemos porque urge disponer de una nueva API para el frontend routing.',
+        img: '/site/speakers/eduardo_san_martin.jpeg',
+        link: 'https://twitter.com/posva'
+    },
+    {
         name: 'Arely Viana',
         title: 'NestJs el mejor framework para tu API',
         abstract: 'NestJS es un framework del lado del servidor, desarrollado para el uso de Node y Typescript(recomendado), implementa una arquitectura modular lo cuál permite construir aplicaciones extensibles y escalables. En ésta charla aprenderemos algunos conceptos básicos construyendo una pequeña API en vivo.',
