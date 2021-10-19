@@ -8,9 +8,9 @@
                 </NuxtLink>
             </li>
             <li class="links__item">
-                <a class="links__anchor" href="#">
+                <NuxtLink to="/faq" class="links__anchor">
                     {{ $t('links.faq') }}
-                </a>
+                </NuxtLink>
             </li>
             <li class="links__item">
                 <a class="links__anchor" href="https://2020.jsconf.mx" target="_blank">
