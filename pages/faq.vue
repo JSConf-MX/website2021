@@ -24,7 +24,7 @@
                 <h3 class="faq__subtitle">{{ $t('faq.question3') }}</h3>
                 <p class="faq__content">
                   {{ $t('faq.answer3') }}
-                  <a class="faq__link" href="#" target="_blank">
+                  <a class="faq__link" href="https://www.eventbrite.com/e/jsconf-mx-2021-tickets-194126416337" target="_blank">
                     {{ $t('faq.answer3Dot1') }}
                   </a>
                 </p>
