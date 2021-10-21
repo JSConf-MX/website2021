@@ -1,4 +1,4 @@
 module.exports = {
     title: '29th, 30th November and 1st December, 2021 Online',
-    button: 'Buy tickets'
+    button: 'Save your spot'
 }
