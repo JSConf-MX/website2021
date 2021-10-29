@@ -21,11 +21,11 @@ export const speakers = [
         link: 'https://twitter.com/EderChrono'
     },
     {
-        name: 'Arisa Fukuzaki',
-        title: 'Gatsby.Jamstack for developers & business users!',
-        abstract: 'Experience a combination of a blazing-fast Gatsby.js and Storyblok that works for developers & business users. You will learn how to develop & deploy a blazing fast blog using the real-time visual editor & component-based approach.',
-        img: '/site/speakers/arisa_fukuzaki.jpeg',
-        link: 'https://twitter.com/arisa_dev'
+        name: 'Facundo Giuliani',
+        title: 'Incremental Static Regeneration: Static sites on steroids',
+        abstract: 'Static sites are great. They are fast, cheap, secure, and easy to maintain. But generating static assets is a process that takes more and more time while our site gets bigger. We will talk about Incremental Static Regeneration (ISR), a feature that Next.js framework offers us to generate static pages at runtime. With it, we get the benefit of static, but supporting dynamic data and page re-rendering on demand.',
+        img: '/site/speakers/facundo.jpeg',
+        link: 'https://twitter.com/facundozurdo'
     },
     {
         name: 'Nicholas Hehr',
@@ -54,6 +54,13 @@ export const speakers = [
         abstract: 'Whether you want to instruct at a coding boot camp, mentor junior engineers at your job, create content, being a good teacher means embracing vulnerability, kindness, and inclusivity in the classroom. I will share my lessons I have picked up along the way as a student, an engineer, and an instructor.',
         img: '/site/speakers/rizel_scarlett.jpeg',
         link: 'https://twitter.com/blackgirlbytes'
+    },
+    {
+        name: 'Rob Richardson',
+        title: 'JavaScript Tests in Node, the Browser, and CI',
+        abstract: 'This no-slides talk demos creating tests in JavaScript. We live-code sync tests, async with callbacks, promise-based tests, and async/await tests. We craft tests in Node, tests in the Browser, and unit tests that run from CI. This can be a great tool in your toolchest of unit testing, integration testing, end-to-end testing, component testing, etc.',
+        img: '/site/speakers/rob.png',
+        link: 'https://twitter.com/rob_rich'
     },
     {
         name: 'Jesus Emmanuel Gonzalez Vega',
