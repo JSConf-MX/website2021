@@ -3,7 +3,7 @@
           <p class="hero__title">
             {{ $t('hero.title') }}
           </p>
-          <a class="hero__button" href="#" target="_blank">
+          <a class="hero__button" href="https://www.eventbrite.com/e/jsconf-mx-2021-tickets-194126416337" target="_blank">
             {{ $t('hero.button') }}
           </a>
         </div>
