@@ -9,7 +9,7 @@
                 <a
                   v-if="speaker.link !== ''"
                   :href="speaker.link"
-                  :target="_blank"
+                  target="_blank"
                   class="speaker__link"
                 >
                   <h2 class="speaker__name">
