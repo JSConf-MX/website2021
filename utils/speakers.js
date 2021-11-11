@@ -87,7 +87,35 @@ export const speakers = [
         name: 'Tim Pietrusky',
         title: 'Modular Audio Visualisation with modV',
         abstract: 'Create audio reactive visualisations by combining different kinds of default & your own visual modules (2D, ISF & Shader) with any kind of audio input like a microphone or computer audio. In the end you will know all the basics in order to create a music video for your favorite song.',
-        img: '/site/speakers/tom_pietrusky.png',
+        img: '/site/speakers/tim_pietrusky.png',
         link: 'https://twitter.com/TimPietrusky'
     },
+    {
+        name: 'Marian Villa',
+        title: 'Sistema de diseño: tokens, activos, componentes y patrones',
+        abstract: 'Siempre diseñamos con un propósito definido, pero cuando hablamos del diseño como identidad no solo es importante entender el todo, si no también sus partes a profundidad. El pensamiento sistémico es clave a la hora de construir una metodología útil para estructurar los componentes de una interfaz gráfica desde el momento cero.',
+        img: '/site/speakers/marian_villa.jpeg',
+        link: 'https://twitter.com/Marianvilla'
+    },
+    {
+        name: 'Carlos Avendaño',
+        title: 'Máquinas de estado finitas con XState.',
+        abstract: 'Desarrolla una mejor experiencia para el usuario y para tu proyecto, usando a las máquinas de estado finitas con XState. Encuéntrales beneficio para el flujo y la lógica de las interacciones para tus componentes y en general para tú UX. Nos ensuciaremos las manos codificando una máquina de estado finitas en un ejemplo real.',
+        img: '/site/speakers/carlos_avendano.jpeg',
+        link: 'https://twitter.com/c3phei'
+    },
+    {
+        name: 'Nacho Sainz',
+        title: 'How would Typescript make your life easier?',
+        abstract: 'Do you know how to use Typescript? Typescript is a Javascript superset to document the data we are expecting. Typescript improves the developer experience and helps find edge cases quicker. Want to learn some tricks?',
+        img: '/site/speakers/nacho_sainz.png',
+        link: ''
+    },
+    {
+        name: 'Fabián Flores',
+        title: 'How would Typescript make your life easier?',
+        abstract: 'Do you know how to use Typescript? Typescript is a Javascript superset to document the data we are expecting. Typescript improves the developer experience and helps find edge cases quicker. Want to learn some tricks?',
+        img: '/site/speakers/fabian_flores.png',
+        link: ''
+    }
 ]
