@@ -7,8 +7,9 @@
             <div v-for="(speaker, index) in speakers" :key="index" class="speaker__container">
               <div class="speaker__content">
                 <a
+                  v-if="speaker.link !== ''"
                   :href="speaker.link"
-                  target="_blank"
+                  :target="_blank"
                   class="speaker__link"
                 >
                   <h2 class="speaker__name">
@@ -16,6 +17,9 @@
                     <img class="speaker__icon" src="/icons/external-link.png"/>
                   </h2>
                 </a>
+                <h2 v-else class="speaker__name">
+                    {{speaker.name}}
+                </h2>
                 <h3 class="speaker__title">{{speaker.title}}</h3>
                 <p class="speaker__paragraph">
                   {{speaker.abstract}}
