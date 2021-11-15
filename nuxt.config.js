@@ -78,8 +78,7 @@ module.exports = {
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-  ],
+  plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -91,7 +90,14 @@ module.exports = {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     '@nuxtjs/style-resources',
-    'nuxt-i18n'
+    'nuxt-i18n',
+    ['nuxt-facebook-pixel-module', {
+      /* module options */
+      track: 'PageView',
+      pixelId: '401938124754500',
+      autoPageView: true,
+      disabled: false
+    }],
   ],
 
   i18n: {
