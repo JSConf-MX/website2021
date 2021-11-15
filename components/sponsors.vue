@@ -4,7 +4,7 @@
         <span class="sponsor__title">{{ $t('sponsors.title') }}</span>
         </div>
         <div class="sponsor__container">
-            <div class="sponsor__photo">
+            <!-- <div class="sponsor__photo">
               <img class="sponsor__decoration" src="/site/tamagochi.png" alt="handheld digital pet">
             </div>
             <div class="sponsor__paragraph">
@@ -15,6 +15,61 @@
             </div>
             <div class="sponsor__shadow">
               <img class="sponsor__shadow-img" src="/site/lila-shadow.png" alt="shadow in lila color">
+            </div> -->
+            <div class="sponsor__row-column">
+              <img src="/site/sponsors/platinum.svg" alt="platinum sponsors">
+              <div class="sponsor__row">
+                 <div class="sponsor__column-1-2">
+                  <a href="https://www.luxoft.com/" target="_blank" rel="noopener noreferrer">
+                    <img class="sponsor__logo" src="/site/sponsors/luxoft.png" alt="Luxoft, a DXC Technology Company, is a digital strategy and software engineering firm">
+                  </a>
+                </div>
+                <div class="sponsor__column-1-2">
+                  <a href="https://www.globant.com/" target="_blank" rel="noopener noreferrer">
+                    <img class="sponsor__logo" src="/site/sponsors/globant.png" alt="Globant is an IT and Software Development company">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="sponsor__row-column">
+              <img src="/site/sponsors/gold.svg" alt="gold sponsors">
+              <div class="sponsor__row">
+                <div class="sponsor__column-1-2">
+                  <a href="https://andela.com/join-andela/" target="_blank" rel="noopener noreferrer">
+                    <img class="sponsor__logo" src="/site/sponsors/andela.png" alt="andela is an American company that identifies and develops software developers">
+                  </a>
+                </div>
+                <div class="sponsor__column-1-2">
+                  <a href="https://www.nextiva.com/" target="_blank" rel="noopener noreferrer">
+                    <img class="sponsor__logo" src="/site/sponsors/nextiva.png" alt="Nextiva is a Connected Communications company that helps businesses grow faster.">
+                  </a>
+                </div>
+                <div class="sponsor__column-1-2">
+                  <a href="https://www.storyblok.com/home" target="_blank" rel="noopener noreferrer">
+                   <img class="sponsor__logo" src="/site/sponsors/storyblok.png" alt="Storyblok is a user friendly and powerful headless CMS.">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="sponsor__row-column">
+              <img src="/site/sponsors/support.svg" alt="support sponsors" style="margin-bottom: 20px">
+              <div class="sponsor__row">
+                <div class="sponsor__column-1-2">
+                  <a href="https://twitter.com/mytypeofradio" target="_blank" rel="noopener noreferrer">
+                    <img class="sponsor__logo" src="/site/sponsors/mtr.png" alt="Un podcast de desarrollo web en español">
+                  </a>
+                </div>
+                <div class="sponsor__column-1-2 sponsor__column-1-2--mb">
+                  <a href="https://technolatinas.org/" target="_blank" rel="noopener noreferrer">
+                    <img class="sponsor__logo" src="/site/sponsors/technolatinas.png" alt="es una red de apoyo para cualquier persona que se identifique como latina en tecnología.">
+                  </a>
+                </div>
+                <div class="sponsor__column-1-2">
+                  <a href="https://twitter.com/noobsjs" target="_blank" rel="noopener noreferrer">
+                    <img class="sponsor__logo" src="/site/sponsors/NoobsJS.png" alt="Comunidad de NoobsJS. ">
+                  </a>
+                </div>
+              </div>
             </div>
         </div>
     </div>
@@ -102,6 +157,36 @@
       color: $pink;
       border: 1px solid $pink;
     }
+  }
+  &__row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    &-column {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: flex-start;
+      width: 100%;
+    }
+  }
+  &__column-1-2 {
+    width: calc(100%/2);
+    @include under($breakpoint-menu) {
+      width: 100%;
+    }
+    &--mb {
+      @include under($breakpoint-menu) {
+        margin: 20px 0px;
+      }
+    }
+  }
+  &__logo {
+    width: 100%;
   }
 }
 </style>
