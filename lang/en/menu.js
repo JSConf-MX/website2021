@@ -3,5 +3,6 @@ module.exports = {
     sponsors:   'Sponsors',
     speakers:   'Speakers',
     team: 'Team',
-    social: 'Social Media'
+    social: 'Social Media',
+    jobs: 'Open positions'
   }

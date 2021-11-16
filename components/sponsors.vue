@@ -4,6 +4,9 @@
         <span class="sponsor__title">{{ $t('sponsors.title') }}</span>
         </div>
         <div class="sponsor__container">
+          <NuxtLink to="/jobs" class="sponsor__button">
+            {{ $t('sponsors.positions') }}
+          </NuxtLink>
             <!-- <div class="sponsor__photo">
               <img class="sponsor__decoration" src="/site/tamagochi.png" alt="handheld digital pet">
             </div>
@@ -146,9 +149,12 @@
     border-radius: 3px;
     width: auto;
     text-align: center;
-    margin: 10px auto 0;
+    margin: 0 0 10px auto;
     z-index: 1;
     border: 1px solid transparent;
+    @include under($breakpoint-menu) {
+      margin: 0 auto 10px;
+    }
     &:hover{
       background-image: url('../static/site/sparkle.gif');
       background-size: contain;

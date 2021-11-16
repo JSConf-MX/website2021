@@ -9,6 +9,9 @@
         <NuxtLink to="/#sponsors" class="menu__button">
           {{ $t('menu.sponsors') }}
         </NuxtLink>
+        <NuxtLink to="/jobs" class="menu__button">
+          {{ $t('menu.jobs') }}
+        </NuxtLink>
         <NuxtLink to="/#speakers" class="menu__button">
           {{ $t('menu.speakers') }}
         </NuxtLink>
