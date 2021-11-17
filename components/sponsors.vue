@@ -22,12 +22,12 @@
             <div class="sponsor__row-column">
               <img src="/site/sponsors/platinum.svg" alt="platinum sponsors">
               <div class="sponsor__row">
-                 <div class="sponsor__column-1-2">
+                 <div class="sponsor__column-1-1">
                   <a href="https://www.luxoft.com/" target="_blank" rel="noopener noreferrer">
                     <img class="sponsor__logo" src="/site/sponsors/luxoft.png" alt="Luxoft, a DXC Technology Company, is a digital strategy and software engineering firm">
                   </a>
                 </div>
-                <div class="sponsor__column-1-2">
+                <div class="sponsor__column-1-1">
                   <a href="https://www.globant.com/" target="_blank" rel="noopener noreferrer">
                     <img class="sponsor__logo" src="/site/sponsors/globant.png" alt="Globant is an IT and Software Development company">
                   </a>
@@ -57,19 +57,19 @@
             <div class="sponsor__row-column">
               <img src="/site/sponsors/support.svg" alt="support sponsors" style="margin-bottom: 20px">
               <div class="sponsor__row">
-                <div class="sponsor__column-1-2">
+                <div class="sponsor__column-1-4">
                   <a href="https://twitter.com/mytypeofradio" target="_blank" rel="noopener noreferrer">
                     <img class="sponsor__logo" src="/site/sponsors/mtr.png" alt="Un podcast de desarrollo web en español">
                   </a>
                 </div>
-                <div class="sponsor__column-1-2 sponsor__column-1-2--mb">
-                  <a href="https://technolatinas.org/" target="_blank" rel="noopener noreferrer">
-                    <img class="sponsor__logo" src="/site/sponsors/technolatinas.png" alt="es una red de apoyo para cualquier persona que se identifique como latina en tecnología.">
-                  </a>
-                </div>
-                <div class="sponsor__column-1-2">
+                <div class="sponsor__column-1-4">
                   <a href="https://twitter.com/noobsjs" target="_blank" rel="noopener noreferrer">
                     <img class="sponsor__logo" src="/site/sponsors/NoobsJS.png" alt="Comunidad de NoobsJS. ">
+                  </a>
+                </div>
+                <div class="sponsor__column-1-4 sponsor__column-1-2--mb">
+                  <a href="https://technolatinas.org/" target="_blank" rel="noopener noreferrer">
+                    <img class="sponsor__logo" src="/site/sponsors/technolatinas.png" alt="es una red de apoyo para cualquier persona que se identifique como latina en tecnología.">
                   </a>
                 </div>
               </div>
@@ -180,14 +180,22 @@
       width: 100%;
     }
   }
-  &__column-1-2 {
-    width: calc(100%/2);
-    @include under($breakpoint-menu) {
+  &__column {
+    &-1 {
       width: 100%;
-    }
-    &--mb {
-      @include under($breakpoint-menu) {
-        margin: 20px 0px;
+      &-2 {
+        width: calc(100%/2);
+        &--mb {
+          @include under($breakpoint-menu) {
+            margin: 20px 0px;
+          }
+        }
+      }
+      &-4 {
+        width: calc(100%/4);
+        @include under($breakpoint-menu) {
+          width: calc(100%/3);
+        }
       }
     }
   }

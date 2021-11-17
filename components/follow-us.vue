@@ -116,6 +116,9 @@
             justify-content: space-evenly;
             align-items: center;
             margin-bottom: 30px;
+            width: 100%;
+            right: 0;
+            top: 0;
         }
         &-link {
             font-family: $regular;
