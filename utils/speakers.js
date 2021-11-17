@@ -117,5 +117,19 @@ export const speakers = [
         abstract: 'Do you know how to use Typescript? Typescript is a Javascript superset to document the data we are expecting. Typescript improves the developer experience and helps find edge cases quicker. Want to learn some tricks?',
         img: '/site/speakers/fabian_flores.png',
         link: ''
+    },
+    {
+        name: 'Chloe Condon',
+        title: 'These Are a Few of My Favorite Things.js',
+        abstract: 'As developers, we often have a love/hate relationship with programming languages. Sometimes, we want to throw our computer into the ocean after working on a bug for several hours, and other times we want to do a victory dance when our code runs on the first try. In this talk, I will share some of my favorite silly/fun/quirky/unique JavaScript projects, and share why it is important to have fun and experiment while programming. You will leave this talk with a new found love for JavaScript (and hopefully some new side project inspiration!)',
+        img: '/site/speakers/chloe_condon.jpg',
+        link: 'https://twitter.com/ChloeCondon'
+    },
+    {
+        name: 'Ramón Huidobro',
+        title: 'Un juego de herramientas para poder navegar una nueva base de codigo con confianza y comodidad',
+        abstract: 'Tanto una base de código open source o una en el trabajo, ¡aclimatarse a una desconicida es difícil! Examinemos las herramientas que he desarrollado a traves del tiempo de manera eficaz. No te aflijas, ¡nos pasa a todos!',
+        img: '/site/speakers/ramon.jpg',
+        link: 'https://twitter.com/hola_soy_milk'
     }
 ]
