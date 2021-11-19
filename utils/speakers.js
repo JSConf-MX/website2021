@@ -131,5 +131,12 @@ export const speakers = [
         abstract: 'Tanto una base de código open source o una en el trabajo, ¡aclimatarse a una desconicida es difícil! Examinemos las herramientas que he desarrollado a traves del tiempo de manera eficaz. No te aflijas, ¡nos pasa a todos!',
         img: '/site/speakers/ramon.jpg',
         link: 'https://twitter.com/hola_soy_milk'
+    },
+    {
+        name: 'Oscar Barajas Tavares',
+        title: 'En futuro está aquí: ¿Qué es ViteJs?',
+        abstract: 'Vite es una herramienta de compilación que mejora la experiencia de desarrollo de frontEnd. Vite nos permite configurar un entorno de desarrollo para Frameworks/Librerias como Angular, React, Vue, Svelte entre otros con un sistema de cambios en tiempo real. Descubre como ViteJS aprovecha las mejoras al lenguaje JavaScript para ser la herramienta del futuro en compilación.',
+        img: '/site/speakers/oscar.jpeg',
+        link: 'https://twitter.com/gndx'
     }
 ]
