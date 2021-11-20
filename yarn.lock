@@ -5529,6 +5529,11 @@ nuxt-i18n@^6.22.3:
     ufo "^0.6.7"
     vue-i18n "^8.23.0"
 
+nuxt-twitter-pixel-module@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/nuxt-twitter-pixel-module/-/nuxt-twitter-pixel-module-2.0.0.tgz#46ee46b7b0f6fc695ad816dcca4c90e8313e4414"
+  integrity sha512-tzgO6yy6uJLyTAvyhwEA+TM0fkXKAEs4c1X1iZWrK6Z+kpAfvHolQ3jfmhTLIZD8GleSJ3rtelrqqA/2WwjHfQ==
+
 nuxt@^2.15.3:
   version "2.15.3"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-2.15.3.tgz#6262707de8a824df0718fc88653c74a916aa5122"

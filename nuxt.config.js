@@ -91,6 +91,7 @@ module.exports = {
   modules: [
     '@nuxtjs/style-resources',
     'nuxt-i18n',
+    'nuxt-twitter-pixel-module',
     ['nuxt-facebook-pixel-module', {
       /* module options */
       track: 'PageView',
@@ -99,6 +100,12 @@ module.exports = {
       disabled: false
     }],
   ],
+
+  twitter: {
+    /* module options */
+    track: 'PageView',
+    pixelId: 'o74aq',
+  },
 
   i18n: {
     lazy: true,
