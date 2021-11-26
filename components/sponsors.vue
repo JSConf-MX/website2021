@@ -55,6 +55,16 @@
               </div>
             </div>
             <div class="sponsor__row-column">
+              <img src="/site/sponsors/silver.svg" alt="silver sponsors">
+              <div class="sponsor__row">
+                <div class="sponsor__column-1-3">
+                  <a href="https://www.wizeline.com/" target="_blank" rel="noopener noreferrer">
+                    <img class="sponsor__logo" src="/site/sponsors/wizeline.png" alt="Wizeline is a global product development company that helps its clients solve their biggest challenges with design and technology.">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="sponsor__row-column">
               <img src="/site/sponsors/support.svg" alt="support sponsors" style="margin-bottom: 20px">
               <div class="sponsor__row">
                 <div class="sponsor__column-1-4">
@@ -62,14 +72,14 @@
                     <img class="sponsor__logo" src="/site/sponsors/mtr.png" alt="Un podcast de desarrollo web en español">
                   </a>
                 </div>
-                <div class="sponsor__column-1-4">
-                  <a href="https://twitter.com/noobsjs" target="_blank" rel="noopener noreferrer">
-                    <img class="sponsor__logo" src="/site/sponsors/NoobsJS.png" alt="Comunidad de NoobsJS. ">
-                  </a>
-                </div>
                 <div class="sponsor__column-1-4 sponsor__column-1-2--mb">
                   <a href="https://technolatinas.org/" target="_blank" rel="noopener noreferrer">
                     <img class="sponsor__logo" src="/site/sponsors/technolatinas.png" alt="es una red de apoyo para cualquier persona que se identifique como latina en tecnología.">
+                  </a>
+                </div>
+                <div class="sponsor__column-1-4">
+                  <a href="https://twitter.com/noobsjs" target="_blank" rel="noopener noreferrer">
+                    <img class="sponsor__logo" src="/site/sponsors/NoobsJS.png" alt="Comunidad de NoobsJS. ">
                   </a>
                 </div>
               </div>
@@ -191,11 +201,12 @@
           }
         }
       }
+      &-3 {
+        width: calc(100%/3);
+        margin-top: 30px;
+      }
       &-4 {
         width: calc(100%/4);
-        @include under($breakpoint-menu) {
-          width: calc(100%/3);
-        }
       }
     }
   }
