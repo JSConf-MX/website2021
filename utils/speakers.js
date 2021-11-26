@@ -145,5 +145,12 @@ export const speakers = [
         abstract: 'Crear un proyecto desde cero, that is the dream, right? Y con ello, nos encontramos repitiendo las mismas tareas una y otra vez. Desde crear el setup, pasando por el manejo de usuarios, inicio de sesión, hasta documentación. Pasan semanas antes de comenzar con el código específico de tu nuevo proyecto. Pero, ¿es necesario?',
         img: '/site/speakers/francisco.jpeg',
         link: 'https://www.linkedin.com/in/franciscosevilla/'
+    },
+    {
+        name: 'Sebas Gomez',
+        title: 'Ten tu aplicación de react native productiva en 30 min',
+        abstract: 'Inicializar una aplicación de React Native con buenas prácticas no debería ser complicado! En este workshop navegaremos por uno de los boilerplates más utilizados en el mundo de react native para crear aplicaciones de nivel empresarial con una buena semántica, estructura y escalabilidad! Te esperamos',
+        img: '/site/speakers/sebas.png',
+        link: 'https://www.linkedin.com/in/sebastian-gomez-frontend/'
     }
 ]
