@@ -1,6 +1,6 @@
 module.exports = {
     hero: 'Vacantes',
-    button: 'Solicitar',
+    button: 'Aplicar',
     jobs: [
         {
             title: 'Desarrollador Front End',

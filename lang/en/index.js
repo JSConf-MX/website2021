@@ -10,6 +10,7 @@ const links = require('./links.js')
 const cocHero = require('./coc-hero.js')
 const faq = require('./faq.js')
 const jobs = require('./jobs.js')
+const virtualKit = require('./virtual-kit.js')
 
 module.exports = {
   splash,
@@ -23,5 +24,6 @@ module.exports = {
   links,
   cocHero,
   faq,
-  jobs
+  jobs,
+  virtualKit
 }
