@@ -4,9 +4,14 @@
         <span class="sponsor__title">{{ $t('sponsors.title') }}</span>
         </div>
         <div class="sponsor__container">
-          <NuxtLink to="/jobs" class="sponsor__button">
-            {{ $t('sponsors.positions') }}
-          </NuxtLink>
+          <div class="sponsor__buttons-container">
+            <NuxtLink to="/virtual-kit" class="sponsor__button">
+              {{ $t('sponsors.virtualKit') }}
+            </NuxtLink>
+            <NuxtLink to="/jobs" class="sponsor__button">
+              {{ $t('sponsors.positions') }}
+            </NuxtLink>
+          </div>
             <!-- <div class="sponsor__photo">
               <img class="sponsor__decoration" src="/site/tamagochi.png" alt="handheld digital pet">
             </div>
@@ -102,6 +107,19 @@
     align-items: flex-start;
     padding: 30px 15px;
   }
+  &__buttons {
+    &-container {
+      display: none;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      @include under($breakpoint-menu) {
+        display: flex;
+      }
+    }
+  }
   &__header {
     background-color: $light-purple;
     padding: 10px 15px;
@@ -159,7 +177,7 @@
     border-radius: 3px;
     width: auto;
     text-align: center;
-    margin: 0 0 10px auto;
+    margin: 0 0 30px 0;
     z-index: 1;
     border: 1px solid transparent;
     @include under($breakpoint-menu) {

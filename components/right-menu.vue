@@ -15,6 +15,9 @@
         <NuxtLink to="/#speakers" class="menu__button">
           {{ $t('menu.speakers') }}
         </NuxtLink>
+        <NuxtLink to="/virtual-kit" class="menu__button">
+          {{ $t('menu.virtualKit') }}
+        </NuxtLink>
         <!-- <NuxtLink to="/#team" class="menu__button">
           {{ $t('menu.team') }}
         </NuxtLink> -->

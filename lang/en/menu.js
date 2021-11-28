@@ -4,5 +4,6 @@ module.exports = {
     speakers:   'Speakers',
     team: 'Team',
     social: 'Social Media',
-    jobs: 'Open positions'
+    jobs: 'Open positions',
+    virtualKit: 'Virtual kit'
   }

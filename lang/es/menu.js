@@ -4,5 +4,6 @@ module.exports = {
     speakers:   'Ponentes',
     team: 'Equipo',
     social: 'Redes sociales',
-    jobs: 'Vacantes'
+    jobs: 'Vacantes',
+    virtualKit: 'Kit virtual'
   }
