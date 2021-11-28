@@ -18,9 +18,9 @@
         <NuxtLink to="/virtual-kit" class="menu__button">
           {{ $t('menu.virtualKit') }}
         </NuxtLink>
-        <!-- <NuxtLink to="/#team" class="menu__button">
+        <NuxtLink to="/#team" class="menu__button">
           {{ $t('menu.team') }}
-        </NuxtLink> -->
+        </NuxtLink>
         <NuxtLink to="/#social" class="menu__button">
           {{ $t('menu.social') }}
         </NuxtLink>

@@ -8,6 +8,7 @@
         <about/>
         <sponsors/>
         <speakers/>
+        <team/>
       </div>
       <side-bar/>
     </div>
@@ -23,6 +24,7 @@ import hero from '~/components/hero.vue'
 import about from '~/components/about.vue'
 import sponsors from '~/components/sponsors.vue'
 import speakers from '~/components/speakers.vue'
+import team from '~/components/team.vue'
 import sideBar from '~/components/side-bar.vue'
 export default {
   name: 'index',
@@ -34,6 +36,7 @@ export default {
     about,
     sponsors,
     speakers,
+    team,
     sideBar
   }
 }
