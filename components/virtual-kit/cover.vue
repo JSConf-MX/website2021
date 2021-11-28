@@ -13,16 +13,16 @@
   background-repeat: no-repeat;
   width: 100%;
   min-height: 295px;
-  background-position: left;
-  margin-top: 30px;
+  background-position: bottom;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   padding: 30px 0px;
+  margin-bottom: 30px;
   @include under($breakpoint-sm) {
-    background-position: left;
+    background-position: bottom;
   }
   &__title {
     font-size: 20px;
