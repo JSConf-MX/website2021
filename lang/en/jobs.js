@@ -10,11 +10,67 @@ module.exports = {
             logo: '/site/sponsors/globant.png'
         },
         {
+          title: 'Senior Front End Developer (Remote)',
+          description: '',
+          descriptionBold: 'Experience with Angular, experience with TypeScript, JavaScript, CSS, good experience working with Gitflow, experience with REST API/ Web API creation, consumption, integration using Service Oriented Architecture., experience with Microsoft Azure (Azure SQL, Storage, Web apps, Key Vault, pipeline, App insights and Monitoring) ',
+          link: 'https://career.luxoft.com/job/senior-front-end-developer/302803/',
+          logo: '/site/sponsors/luxoft.png'
+        },
+        {
+          title: 'Developer Experience Engineer',
+          description: '',
+          descriptionBold: 'Join the Storyblok DX team and help us build the best headless CMS out there. You will be creating the plugins and ecosystem around the core product. Help us bring our DX to the next level.',
+          link: 'https://www.storyblok.com/j/developer-experience-engineer',
+          logo: '/site/sponsors/storyblock.png'
+        },
+        {
+          title: 'Software Engineer - Platform and Services',
+          description: 'At Nextiva, we create connected communication tools that help businesses stay in touch with their customers and teams. You will contribute to the development of the core services that support Nextiva products. You will be part of a tribe that combines product managers and engineers focused on conceiving and building amazing products. ',
+          descriptionBold: 'Right now, we are looking for Software Engineer - Platform and Services at Nextiva!',
+          link: 'https://www.nextiva.com/company/careers-listing.html?gh_jid=5228472002',
+          logo: '/site/sponsors/nextiva.png'
+        },
+        {
+          title: 'Software Engineer | JavaScript/React (Remote)',
+          description: '',
+          descriptionBold: '5+ years of professional software development experience, react / Javascript, CICD, NodeJs, Typescript, Experience in UI development, Experience in backend development',
+          link: 'https://career.luxoft.com/job/software-engineer/304298/',
+          logo: '/site/sponsors/luxoft.png'
+        },
+        {
             title: 'Python Developer',
             description: 'We are a digitally native technology services company where innovation, design and engineering meet scale. We use some of the latest technologies in the digital and cognitive field to empower organizations in every aspect.',
             descriptionBold: 'Right now, we’re looking for Python Developers to join our team at Globant!',
             link: 'https://career.globant.com/job/Mexico-DF-Python-Developer-MX-Mexico-DF-Mexico-DF-Mexi/540087917/',
             logo: '/site/sponsors/globant.png'
+        },
+        {
+          title: 'Software Engineer - UI and Apps',
+          description: 'At Nextiva, we create connected communication tools that help businesses stay in touch with their customers and teams. You will contribute to the development of the core services that support Nextiva products. You will be part of a tribe that combines product managers and engineers focused on conceiving and building amazing products. ',
+          descriptionBold: 'Right now, we are looking for Software Engineer - UI and Apps at Nextiva!',
+          link: 'https://www.nextiva.com/company/careers-listing.html?gh_jid=5228409002',
+          logo: '/site/sponsors/nextiva.png'
+        },
+        {
+          title: 'Technologist (multiple engineers positions)',
+          description: 'Andela is the world’s first long-term talent network that connects industry leading companies with vetted, remote engineers. As an Andela Talent Network member you will receive access to a variety of roles, benefits and experience unavailable anywhere else',
+          descriptionBold: 'Right now, we are looking for Technologist (multiple engineers positions) at Andela!',
+          link: 'https://andela.com/join-andela/',
+          logo: '/site/sponsors/andela.png'
+        },
+        {
+          title: 'Ruby on Rails Software Engineer',
+          description: 'Wizeline is a global technology services provider that partners with Fortune 500 companies and startups to build high-quality digital products and platforms that accelerate time-to-market. Our diverse and adaptive teams provide the right combination of solutions and methodologies to deliver results while collaborating with our customers’ teams to foster innovation through continuous learning.',
+          descriptionBold: 'Right now, we are looking for Ruby on Rails Software Engineer at Wizeline!',
+          link: 'https://bit.ly/3DSCJb5',
+          logo: '/site/sponsors/wizeline.png'
+        },
+        {
+          title: 'Lead Software Engineer | React Native (Remote)',
+          description: '',
+          descriptionBold: '5+ years of professional software development experience, React / Javascript, CICD, NodeJs, Typescript, Experience in UI development, Experience in backend development',
+          link: 'https://career.luxoft.com/job/lead-software-engineer-react-native/304296/',
+          logo: '/site/sponsors/luxoft.png'
         },
         {
             title: 'NodeJS Developer',
@@ -24,6 +80,20 @@ module.exports = {
             logo: '/site/sponsors/globant.png'
         },
         {
+          title: 'iOS Software Engineer',
+          description: 'Wizeline is a global technology services provider that partners with Fortune 500 companies and startups to build high-quality digital products and platforms that accelerate time-to-market. Our diverse and adaptive teams provide the right combination of solutions and methodologies to deliver results while collaborating with our customers’ teams to foster innovation through continuous learning.',
+          descriptionBold: 'Right now, we are looking for iOS Software Engineer at Wizeline!',
+          link: 'https://bit.ly/3CQwu67',
+          logo: '/site/sponsors/wizeline.png'
+        },
+        {
+          title: 'Software Engineer | JavaScript (Remote)',
+          description: '',
+          descriptionBold: '3+ years of professional software development experience, React / Javascript, NodeJs, Typescript',
+          link: 'https://career.luxoft.com/job/software-engineer-javascript/303871/',
+          logo: '/site/sponsors/luxoft.png'
+        },
+        {
             title: 'Android Developer',
             description: 'We are a digitally native technology services company where innovation, design and engineering meet scale. We use some of the latest technologies in the digital and cognitive field to empower organizations in every aspect.',
             descriptionBold: 'Right now, we are looking for Android Developers to join our UI Engineering Studio at Globant! This Studio builds and evolves Mobile Applications, from inception to release in Stores, partnering with our client teams always looking for 5-star ratings.',
@@ -31,11 +101,32 @@ module.exports = {
             logo: '/site/sponsors/globant.png'
         },
         {
+          title: 'Senior Android Software Engineer',
+          description: 'Wizeline is a global technology services provider that partners with Fortune 500 companies and startups to build high-quality digital products and platforms that accelerate time-to-market. Our diverse and adaptive teams provide the right combination of solutions and methodologies to deliver results while collaborating with our customers’ teams to foster innovation through continuous learning.',
+          descriptionBold: 'Right now, we are looking for Senior Android Software Engineer at Wizeline!',
+          link: 'https://bit.ly/3nSnzgh',
+          logo: '/site/sponsors/wizeline.png'
+        },
+        {
+          title: 'Frontend Software Engineer | React (On Site)',
+          description: '',
+          descriptionBold: 'Experience in HTML, CSS, JavaScript/TypeScript, demonstrated experience developing scalable and robust software web applications, experience with popular JavaScript libraries and tools such as React.js, jQuery, NPM',
+          link: 'https://career.luxoft.com/job/frontend-software-engineer/300436/',
+          logo: '/site/sponsors/luxoft.png'
+        },
+        {
             title: 'iOS Developer',
             description: 'We are a digitally native technology services company where innovation, design and engineering meet scale. We use some of the latest technologies in the digital and cognitive field to empower organizations in every aspect.',
             descriptionBold: 'Right now, we are looking for iOS Developers to join our UI Engineering Studio at Globant! This Studio builds and evolves Mobile Applications, from inception to release in Stores, partnering with our client teams always looking for 5-star ratings.',
             link: 'https://career.globant.com/job/Mexico-DF-IOS-Mobile-Developer-MX-Mexico-DF-Mexico-DF-Mexi/540118917/',
             logo: '/site/sponsors/globant.png'
-        }
+        },
+        {
+          title: 'Front-end Software Engineer | React/GraphQL (Remote)',
+          description: '',
+          descriptionBold: 'HTML5, React, React Native, GraphQL, JavaScript, CSS3, Next.js',
+          link: 'https://career.luxoft.com/job/front-end-software-engineer-react-graphql/303376/',
+          logo: '/site/sponsors/luxoft.png'
+        },
     ]
 }
