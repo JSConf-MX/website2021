@@ -9,14 +9,14 @@ module.exports = {
             logo: '/site/sponsors/storyblok.png'
         },
         {
-            title: 'Enter to win a  Echoshow 8',
+            title: 'Participa para ganar un Echo Show 8',
             description: 'Gana un Echo Show 8, completa el formulario para tener una oportunidad',
             descriptionBold: '',
             link: 'https://forms.office.com/r/5M9YwNm7kM',
             logo: '/site/sponsors/luxoft.png'
         },
         {
-            title: 'Solve the puzzle get a chance to win a Monitor 28" UHD',
+            title: 'Resuelve el rompecabezas y obtén la oportunidad de ganar un Monitor 28 "UHD',
             description: 'Pon a prueba tus habilidades y resuelve el desafío de México de Nextiva x JS Conf usando TypeScript, obtén la oportunidad de ganar el Samsung Monitor 28 "UHD.',
             descriptionBold: 'El premio solo está disponible para direcciones mexicanas',
             link: 'https://forms.gle/cpHkz4FsxNU17p6p7',
