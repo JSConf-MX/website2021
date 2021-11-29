@@ -13,7 +13,7 @@
                     </div>
                     <div class="jobs__container">
                         <div class="jobs__photo">
-                            <img class="jobs__decoration" src="/site/sponsors/globant.png" alt="Globant is an IT and Software Development company">
+                            <img class="jobs__decoration" :src="job.logo" />
                         </div>
                         <div class="jobs__paragraph">
                             {{job.description}}

@@ -21,7 +21,7 @@ module.exports = {
             description: '',
             descriptionBold: 'Únase al equipo de Storyblok DX y ayúdenos a construir el mejor CMS sin cabeza que existe. Creará los complementos y el ecosistema en torno al producto principal. Ayúdanos a llevar nuestro DX al siguiente nivel.',
             link: 'https://www.storyblok.com/j/developer-experience-engineer',
-            logo: '/site/sponsors/storyblock.png'
+            logo: '/site/sponsors/storyblok.png'
         },
         {
           title: 'Software Engineer - Platform and Services',
