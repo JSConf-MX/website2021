@@ -17,7 +17,7 @@
                         </div>
                         <div class="jobs__paragraph">
                             {{job.description}}
-                            <span v-if="job.type == 'text'" class="jobs__paragraph--bold">
+                            <span v-if="job.type === 'text'" class="jobs__paragraph--bold">
                               {{job.descriptionBold}}
                             </span>
                             <a v-else :href="job.anchor" class="jobs__paragraph--bold jobs__link" target="_blank" rel="noopener noreferrer">
