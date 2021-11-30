@@ -38,6 +38,15 @@ module.exports = {
           logo: '/site/sponsors/luxoft.png'
         },
         {
+          title: 'Senior Software Engineer, Front End Systems',
+          description: 'Estamos buscando ingenieros con experienciea construyendo infraestructura de frontend escalable y eficiiente. Debes estar concentrado en el cliente, impulsado por los datos y emocionado por colaborar con sus compañeros de equipo y colegas.',
+          descriptionBold: 'Más información: https://careers.etsy.com/global/en/job/JR1324/Senior-Software-Engineer-Frontend-Systems',
+          anchor: 'https://careers.etsy.com/global/en/job/JR1324/Senior-Software-Engineer-Frontend-Systems',
+          link: 'mailto:mexico-hiring@etsy.com',
+          logo: '/site/sponsors/etsy.png',
+          type: 'link'
+        },
+        {
             title: 'Desarrollador Python',
             description: 'Somos una empresa de servicios de tecnología nativa digital donde la innovación, el diseño y la ingeniería se encuentran a escala. Utilizamos algunas de las últimas tecnologías en el campo digital y cognitivo para empoderar a las organizaciones en todos los aspectos.',
             descriptionBold: 'En este momento nos encontramos buscando desarrolladores Python para unirse a nuestro equipo en Globant.',
@@ -73,6 +82,15 @@ module.exports = {
           logo: '/site/sponsors/luxoft.png'
         },
         {
+          title: 'Full Stack Engineer',
+          description: 'Etsy está buscando un Full--Stack Software Engineer para unirse a nuestro equipo de ingeniería de software. Nuestro mercado tiene una gran cantidad de artículos únicos de artistas independientes, diseñadores y coleccionistas antiguos de todo el mundo. ¿Nuestro desafío? Hacer que sea más fácil para los compradores encontrar estos productos extraordinarios y para que los emprendedores creativos dirijan sus negocios. ¿Tiene las habilidades, la pasión y la empatía para asumir esta tarea? ¿Está entusiasmado con la creación de productos que emocionen a nuestros compradores y empoderen a millones de pequeñas empresas?',
+          descriptionBold: 'Más información: https://careers.etsy.com/global/en/job/JR1142/Full-Stack-Engineer-Ingeniero-Full-Stack',
+          anchor: 'https://careers.etsy.com/global/en/job/JR1142/Full-Stack-Engineer-Ingeniero-Full-Stack',
+          link: 'mailto:mexico-hiring@etsy.com',
+          logo: '/site/sponsors/etsy.png',
+          type: 'link'
+        },
+        {
             title: 'Desarrollador NodeJS',
             description: 'Somos una empresa de servicios de tecnología nativa digital donde la innovación, el diseño y la ingeniería se encuentran a escala. Utilizamos algunas de las últimas tecnologías en el campo digital y cognitivo para empoderar a las organizaciones en todos los aspectos.',
             descriptionBold: 'En este momento nos encontramos buscando desarrolladores NodeJS para unirse a nuestro equipo en Globant.',
@@ -106,6 +124,15 @@ module.exports = {
           descriptionBold: 'En este momento nos encontramos buscando Senior Android Software Engineer para unirse a nuestro equipo en Wizeline.',
           link: 'https://bit.ly/3nSnzgh',
           logo: '/site/sponsors/wizeline.png'
+        },
+        {
+          title: 'Senior Software Engineer, Search Experience',
+          description: 'El equipo de Search Experience es facilitar que los compradores encuentren estos productos extraordinarios y que los emprendedores creativos encuentren el éxito a través de nuestra plataforma. Como ingeniero de nuestro equipo, usted desempeñará un papel importante en la mejora de la experiencia de hacer las compras a los compradores de Etsy. Somos un grupo multifuncional de ingenieros, científicos de datos, gerentes de productos, diseñadores, analistas e investigadores.',
+          descriptionBold: 'Más información: https://careers.etsy.com/global/en/job/JR1314/Senior-Software-Engineer-Search-Experience',
+          anchor: 'https://careers.etsy.com/global/en/job/JR1314/Senior-Software-Engineer-Search-Experience',
+          link: 'mailto:mexico-hiring@etsy.com',
+          logo: '/site/sponsors/etsy.png',
+          type: 'link'
         },
         {
           title: 'Frontend Software Engineer | React (On Site)',

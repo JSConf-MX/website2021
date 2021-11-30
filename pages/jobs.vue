@@ -17,9 +17,12 @@
                         </div>
                         <div class="jobs__paragraph">
                             {{job.description}}
-                            <span class="jobs__paragraph--bold">
-                                {{job.descriptionBold}}
+                            <span v-if="job.type == 'text'" class="jobs__paragraph--bold">
+                              {{job.descriptionBold}}
                             </span>
+                            <a v-else :href="job.anchor" class="jobs__paragraph--bold jobs__link" target="_blank" rel="noopener noreferrer">
+                              {{job.descriptionBold}}
+                            </a>
                             <a
                                 class="jobs__button"
                                 :href="job.link"
@@ -91,6 +94,14 @@ export default {
     }
     &-img {
       width: 100%;
+    }
+  }
+  &__link {
+    overflow-wrap: break-word;
+    text-decoration: none;
+    color: $purple;
+    &:hover {
+      text-decoration: underline;
     }
   }
   &__paragraph {
