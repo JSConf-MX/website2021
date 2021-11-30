@@ -23,6 +23,13 @@ module.exports = {
             logo: '/site/sponsors/nextiva.png'
         },
         {
+            title: 'Cierra el año leyendo con Andela',
+            description: 'Regístrate a la Red de Talento de Andela para tener la oportunidad de ganarte un Kindle Whitepaper Signature Edition y estar un paso más cerca de encontrar tu siguiente rol, avanzar en tu carrera profesional y conectar con otros desarrolladores de software en nuestra comunidad global. Tienes hasta el final del día del miércoles 1 de diciembre para hacerlo. Esto contará como un boleto para participar en una rifa abierta. Para gente fuera de México, evaluaremos la logística por país y en caso de no poder envíar el premio, se entregará un monedero con el equivalente al premio.',
+            descriptionBold: 'Anunciaremos a los ganadores el jueves 2 de diciembre, al final del día a través de las redes sociales de JSConfMX para que estés al pendiente.',
+            link: 'https://andela.com/join-andela/?utm_medium=event&utm_source=conference&utm_campaign=jsconfmx_virtual_kit&utm_content=event_sponsorship&utm_term=talent',
+            logo: '/site/sponsors/andela.png'
+        },
+        {
             title: '¡Gana una playera!',
             description: 'Cada conferencia a la que asistas es un boleto para participar en la rifa de 10 playeras de JSConf México. El sorteo se hará el miércoles 1º de diciembre durante la clausura del evento.',
             descriptionBold: 'Los envíos se harán a cualquier parte del mundo. ¡No te pierdas ninguna charla!',

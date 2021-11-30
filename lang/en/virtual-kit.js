@@ -23,6 +23,13 @@ module.exports = {
             logo: '/site/sponsors/nextiva.png'
         },
         {
+            title: 'Wrap up 2021 and get reading with Andela',
+            description: 'Sign up for the Andela Talent Network for a chance to win a Kindle Whitepaper Signature Edition and be one step closer to finding your next role, advancing your career, and connecting with other software developers in our global community. You have until the end of the day on Wednesday, December 1 to do so. Your registration will count as one ticket to enter an open raffle.',
+            descriptionBold: 'We will announce the winners on Thursday, December 2, at the end of the day, through the JSConfMX social networks so you can be on the lookout.',
+            link: 'https://andela.com/join-andela/?utm_medium=event&utm_source=conference&utm_campaign=jsconfmx_virtual_kit&utm_content=event_sponsorship&utm_term=talent',
+            logo: '/site/sponsors/andela.png'
+        },
+        {
             title: 'Win a t-shirt!',
             description: 'You could get one ticket for each conference that you attend. We will raffle ten t-shirts on December 1st during the closing event.',
             descriptionBold: 'It does not matter from which country you participate. We will send it to you!',
