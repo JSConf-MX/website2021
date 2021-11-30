@@ -67,6 +67,11 @@
                     <img class="sponsor__logo" src="/site/sponsors/wizeline.png" alt="Wizeline is a global product development company that helps its clients solve their biggest challenges with design and technology.">
                   </a>
                 </div>
+                <div class="sponsor__column-1-3">
+                  <a href="https://careers.etsy.com/global/en" target="_blank" rel="noopener noreferrer">
+                    <img class="sponsor__logo" src="/site/sponsors/etsy.png" alt="Etsy, Inc. is an American e-commerce company focused on handmade or vintage items and craft supplies.">
+                  </a>
+                </div>
               </div>
             </div>
             <div class="sponsor__row-column">
